@@ -1,0 +1,8 @@
+{
+  "variant_id": "rs121913343",
+  "article_id": "PMC5815624",
+  "criterion_code": "PS3",
+  "answer": "Yes",
+  "reason": "The manuscript mentions 'BRCA1 A1708E variant' which is similar to the given variant 'BRCA1 p.Ala1708Val'. Although there's a difference in the notation (A1708E vs A1708V), it appears the study investigates the functional impact of a variant at the same position (Ala1708) through various experiments, including BRCA1 transcriptional activation assay and mass spectrometry. This suggests that the article does contain evidence related to the functional studies of the variant in question.",
+  "timestamp": "2025-07-17T23:42:58.194331"
+}

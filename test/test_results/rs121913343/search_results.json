@@ -1,0 +1,56 @@
+{
+  "timestamp": "2025-07-17T23:42:36.635825",
+  "terms": [
+    "rs121913343",
+    "17:43092918:G:A",
+    "NM_007294.4(BRCA1):c.5123C>T(p.Ala1708Val)",
+    "BRCA1 c.5123C>T",
+    "BRCA1 p.Ala1708Val",
+    "BRCA1 Ala1708Val",
+    "BRCA1 p.A1708V",
+    "BRCA1 A1708V"
+  ],
+  "total_pmids": 11,
+  "results": {
+    "NM_007294.4(BRCA1):c.5123C>T(p.Ala1708Val)": {
+      "valid": true,
+      "pmid_count": 0,
+      "error": null
+    },
+    "rs121913343": {
+      "valid": false,
+      "pmid_count": 0,
+      "error": "Phrases not found: rs121913343"
+    },
+    "17:43092918:G:A": {
+      "valid": false,
+      "pmid_count": 0,
+      "error": "Phrases not found: 43092918"
+    },
+    "BRCA1 c.5123C>T": {
+      "valid": true,
+      "pmid_count": 9,
+      "error": null
+    },
+    "BRCA1 p.Ala1708Val": {
+      "valid": true,
+      "pmid_count": 1,
+      "error": null
+    },
+    "BRCA1 Ala1708Val": {
+      "valid": true,
+      "pmid_count": 1,
+      "error": null
+    },
+    "BRCA1 A1708V": {
+      "valid": true,
+      "pmid_count": 1,
+      "error": null
+    },
+    "BRCA1 p.A1708V": {
+      "valid": false,
+      "pmid_count": 0,
+      "error": "Phrases not found: p.A1708V"
+    }
+  }
+}

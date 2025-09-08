@@ -1,0 +1,24 @@
+[
+    {
+        "internal_id": "chr1_976215_A/G",
+        "rsid": "rs7417106",
+        "spdi": "1:976214:A:G",
+        "hgvs_full": "NM_001394713.1(PERM1):c.2330T>C(p.Val777Ala)",
+        "hgvsc": "PERM1 c.2330T>C",
+        "hgvsp_3p": "PERM1 p.Val777Ala",
+        "hgvsp_3": "PERM1 Val777Ala",
+        "hgvsp_1p": "PERM1 p.V777A",
+        "hgvsp_1": "PERM1 V777A"
+    },
+    {
+        "internal_id": "chr1_2496995_G/A",
+        "rsid": "rs962073844",
+        "spdi": "1:2496994:G:A",
+        "hgvs_full": "NM_014638.4(PLCH2):c.2101G>A(p.Ala701Thr)",
+        "hgvsc": "PLCH2 c.2101G>A",
+        "hgvsp_3p": "PLCH2 p.Ala701Thr",
+        "hgvsp_3": "PLCH2 Ala701Thr",
+        "hgvsp_1p": "PLCH2 p.A701T",
+        "hgvsp_1": "PLCH2 A701T"
+    }
+]

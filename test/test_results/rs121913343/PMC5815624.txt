@@ -1,0 +1,748 @@
+Title: Germline missense pathogenic variants in the BRCA1 BRCT domain, p.Gly1706Glu
+and p.Ala1708Glu, increase cellular sensitivity to PARP inhibitor olaparib by a dominant
+negative effect
+
+Tereza Vaclová
+
+Nicholas T Woods
+
+Diego Megías
+
+Sergio Gomez-Lopez
+
+Fernando Setién
+
+José María García Bueno
+
+José Antonio Macías
+
+Alicia Barroso
+
+Miguel Urioste
+
+Manel Esteller
+
+Alvaro NA Monteiro
+
+Javier Benítez
+
+Ana Osorio
+
+Received 2016 Aug 4; Revised 2016 Oct 3; Accepted 2016 Oct 3; Issue date 2016 Dec 15.
+
+Abstract
+
+BRCA1 -deficient cells show defects in DNA repair and rely on other
+members of the DNA repair machinery, which makes them sensitive to PARP inhibitors
+(PARPi). Although carrying a germline pathogenic variant in BRCA1/2 is
+the best determinant of response to PARPi, a significant percentage of the patients do not
+show sensitivity and/or display increased toxicity to the agent. Considering previously
+suggested mutation-specific BRCA1 haploinsufficiency, we aimed to
+investigate whether there are any differences in cellular response to PARPi olaparib
+depending on the BRCA1 mutation type. Lymphoblastoid cell lines derived
+from carriers of missense pathogenic variants in the BRCA1 BRCT domain (c.5117G > A,
+p.Gly1706Glu and c.5123C > A, p.Ala1708Glu) showed higher sensitivity to olaparib than
+cells with truncating variants or wild types (WT). Response to olaparib depended on a
+basal PARP enzymatic activity, but did not correlate with PARP1 expression. Interestingly, cellular sensitivity to the agent was associated with the level
+of BRCA1 recruitment into γH2AX foci, being the lowest in cells with missense variants.
+Since these variants lead to partially stable protein mutants, we propose a model in which
+the mutant protein acts in a dominant negative manner on the WT BRCA1, impairing the
+recruitment of BRCA1 into DNA damage sites and, consequently, increasing cellular
+sensitivity to PARPi. Taken together, our results indicate that carriers of different BRCA1 mutations could benefit from olaparib in a distinct way and show
+different toxicities to the agent, which could be especially relevant for a potential
+future use of PARPi as prophylactic agents in BRCA1 mutation
+carriers.
+
+Introduction
+
+Carrying a germline pathogenic variant in the BRCA1 gene predisposes
+individuals to breast, ovarian and other cancers ( 1 ). Since BRCA1 is an important player in the DNA repair pathway, BRCA1 -deficient cells need to rely on other members of the DNA repair
+machinery, which makes them sensitive to drugs which target those repair pathways (e.g. PARP
+inhibitors, PARPi). PARP enzymes are involved in a DNA single-strand break (SSB) repair
+pathway ( 2 ) and if inhibited, naturally
+occurring SSBs cannot be repaired, leading to a formation of double-strand breaks (DSBs) and
+replication forks collapse. Unrepaired DSBs in BRCA -deficient cells then
+result in cell death ( 3 ). Such synthetic lethal
+interaction between BRCA1/2 and PARP1 was first described by Farmer et al. and became a promising therapeutic strategy for breast, ovarian
+and other cancers ( 4 , 5 ).
+
+PARPi olaparib, evaluated for its safety and tolerability in multiple studies, shows a
+significant clinical activity in patients carrying germline pathogenic variants in BRCA1 or BRCA2 genes ( 6–9 ). Based on its encouraging
+results, in December 2014, olaparib received a marketing authorization by the European
+Commission for the maintenance treatment of platinum-sensitive BRCA -deficient high grade serous ovarian carcinoma and by the FDA (The U.S.
+Food and Drug Administration) for the treatment of recurrent ovarian cancer in BRCA1/2 -mutated women ( 10 ).
+
+However, although carrying a germline pathogenic variant in BRCA1/2 is the
+best determinant of response to olaparib, a considerable percentage of these patients do not
+show sensitivity to the treatment or display increased toxicity to the agent. A multicentre
+phase II trial revealed an objective response rate of 41% in patients with germline BRCA1/2 -deficient advanced breast cancer after treatment with 400mg
+olaparib twice daily ( 8 ), and the response rate
+varied between 13–41% using olaparib as a single agent in recurrent ovarian cancer ( 11–13 ). Regarding toxicity,
+although olaparib is generally well tolerated, grade ≥3 adverse events are not rare ( 7 ) and data about long-term toxicity is not
+available yet. Thus, further investigation is clearly necessary for the best utilization of
+this potent compound in the clinics.
+
+Taking into account the inter-individual variability in the disease manifestation among
+carriers of BRCA1 pathogenic variants, partially explained by the location
+and type of mutations in BRCA1 ( 14 ), the objective of this work was to investigate whether there are any
+differences in the cellular response to olaparib, depending on the BRCA1 mutation type. In the present study, we describe for the first time that lymphoblastoid cell
+lines (LCLs), derived from carriers of pathogenic missense mutations in the BRCA1 BRCT
+domain (namely c.5117G > A, p.Gly1706Glu and c.5123C > A, p.Ala1708Glu), show a higher
+sensitivity to olaparib than cells with truncating mutations or wild type (WT). These
+results indicate that carriers of different BRCA1 pathogenic variants could
+benefit from the treatment in a distinct way and that they could display different
+toxicities. Moreover, we propose and validate a mechanism by which the cells harbouring
+heterozygous missense pathogenic variants in BRCA1 show increased
+sensitivity to olaparib.
+
+Results
+
+Cells harbouring heterozygous missense pathogenic variants in the BRCA1 BRCT domain
+are more sensitive to olaparib than WT cells or cells with truncating variants
+
+In order to investigate the sensitivity of BRCA1 heterozygous mutation
+carrier cells to olaparib we used a previously characterized panel of 21 LCLs ( 15 ). Viability assay revealed that LCLs derived
+from carriers of BRCA1 truncating variants showed comparable sensitivity
+levels to various concentrations of olaparib as WT cells ( Fig. 1A and B ). Average values and standard deviations from three
+independent experiments are listed in Supplementary Material, Table S1 . On the other hand, cells harbouring missense
+pathogenic variants in the BRCA1 BRCT domains were significantly more sensitive to 8μM
+olaparib than both WTs and cells with truncating mutations.
+
+Effect of BRCA1 germline pathogenic variants on the sensitivity of LCLs to
+olaparib. ( A ) MTT assay displaying proliferation changes of 21 LCLs
+treated with indicated concentrations of olaparib (OLP) for 72 h, relative to
+control cells (treated with DMSO). 6 wild-type (WT, blue lines) LCLs, 5 LCLs
+carrying missense pathogenic variants c.5117G > A and c.5123C > A (MIS, red
+lines), and 10 LCLs with truncating mutation in BRCA1 (TRUN, grey
+and black lines) were analysed. Values represent a mean and standard deviation of
+viabilities obtained in three independent experiments. ( B ) Mean
+viabilities of all LCLs belonging to one group (WTs in blue, MIS in red, TRUN in
+black) relative to DMSO-treated cells. P- values were calculated
+with a linear regression model using the cellular growth rate as a
+covariate.
+
+The cellular growth rate (GR) did not vary between groups of LCLs depending on their
+BRCA1 mutation status, however, the GR and viability of cells after treatment with
+olaparib were significantly negatively correlated ( Supplementary Material, Fig. S1 ). Because of this relationship, GR was
+taken into account as a cofounding factor while performing the statistical analysis of
+cellular response to olaparib ( P- value in Fig. 1B ). Nevertheless, the differences in response of mutated
+cells to olaparib remained significant, indicating a GR-independent variability in
+cellular sensitivity to this agent.
+
+Transcriptional activation function of the BRCA1 BRCT domains does not seem to be
+involved in modulation of cellular sensitivity to olaparib
+
+Predicted co-occurrence of mutant and WT BRCA1 protein in cells carrying heterozygous
+missense variants, previously studied in our lab ( 15 ), brings the possibility of a dominant-negative effect of the mutant. We used
+a well-described cell-based transcriptional assay ( 16 , 17 ) to measure the ability of
+BRCA1 C-terminal region to activate transcription of a reporter gene, a function dependent
+on the BRCT domains where both missense variants from our panel are located.
+Transcriptional activity of constructs containing WT BRCA1 (positive control) and missense
+variants M1775R (negative control), G1706E and A1708E, and a combination of WT + A1708E in
+a HEK293FT cellular model ( Fig. 2A and B ) was
+analysed. Co-transfection of WT and A1708E constructs mimicked the heterozygous status
+present in our LCLs and allowed us to test a possible negative effect of the mutated
+variant on WT protein function.
+
+Functional analysis of missense
+variants in BRCA1. ( A ) Diagram of construct visualizing BRCA1 missense
+variants tested in this experiment. Grey boxes indicate the DNA binding domain (DBD)
+of GAL4, and the N- and C-terminal BRCT domains. ( B ) Diagram of the
+five GAL4 DNA binding sites located upstream of the luciferase reporter gene.
+Adapted from ( 31 ). ( C )
+Transfection efficiency was confirmed by Western blot using anti-GAL4-DBD antibody.
+High levels of a specific antibody and an overabundance of the overexpressed protein
+caused intense localized signals and, consequently, white bands at exposed film.
+( D ) Quantitative transcriptional assay in HEK293FT cells treated with
+DMSO (control) or 16μM OLP (olaparib) for 24 h. Results are displayed as a
+percentage of DMSO-treated cells overexpressing WT construct, the error bars
+represent standard deviation from triplicates. The graph shows results from one out
+of three independent experiments.
+
+Western blot analysis confirmed an overexpression of all transfected BRCA1 constructs in
+both DMSO- and olaparib-treated HEK293FT cells ( Fig.
+2C ). As expected, WT BRCA1 was able to activate transcription of the reporter
+gene ( Fig. 2D ) whereas the negative control
+and both tested missense variants (G1706E, A1708E) displayed an altered ability to
+transcribe the luciferase gene. On the other hand, co-transfection of constructs
+containing WT and A1708E variants led to a transcriptional activation, which was
+comparable to the one induced by WT construct alone, indicating that the A1708E variant
+does not act in a dominant-negative manner to a WT BRCA1 transcriptional activation
+function.
+
+Olaparib slightly decreased the ability of WT BRCA1 to activate transcription of the
+reporter gene (82% of the WT), however the decrease did not reach the threshold of 50% to
+be considered of functional impact.
+
+Olaparib induces changes in BRCA1 BRCT protein interactors and phosphorylation of
+threonine residue at position 1834
+
+To further investigate whether olaparib treatment influences functions mediated by the
+BRCA1 BRCT domains, we analysed BRCT-mediated protein interactions and examined whether
+they are modulated by PARP inhibition. For this purpose, we used HEK293FT cells
+overexpressing the BRCA1 BRCT domains, which was either WT or carrying the G1706E variant,
+and treated them either with DMSO (control) or olaparib (16μM). We then analysed
+BRCT-bound protein complexes by tandem affinity purification coupled with mass
+spectrometry (TAP-MS) (detailed protocol in the Materials and Methods section).
+
+We were unable to overexpress the mutated BRCT at levels sufficient for further mass
+spectrometry analysis ( Supplementary
+Material, Fig. S2A ). However, even the effect of olaparib treatment on the WT
+BRCT protein interactions provided a valuable insight into the mechanism of olaparib
+action. After applying the SAINT (Significance Analysis of INTeractome) algorithm ( 18 ) to our data and setting a probability
+threshold of 0.8 − 1, we ended up with a list of 121 protein interactors ( Supplementary Material, Fig. S2A )
+(full list shown in Supplementary
+Material, Table S2 ). Most of the proteins (108/121 = 89%) were found to interact
+with BRCT in both control and olaparib-treated cells. However, 11 interactors were found
+to be olaparib treatment-specific ( Table 1 ).
+
+BRCA1 BRCT interacting proteins specific for olaparib-treated
+cells
+
+Abbreviations: GO, Gene Ontology; OLP,
+olaparib.
+
+To get further insights into the functional roles of proteins interacting with the BRCA1
+BRCT domain, we performed an enrichment analysis of the set of 121 proteins by using
+Ingenuity Pathway Analysis (IPA), taking into account the value of fold-change spectral
+counts. As expected, among the top canonical pathways related to this set of proteins was
+“Role of BRCA1 in DNA Damage Response”, which was found to be downregulated in
+olaparib-treated cells (as indicated by the negative z-score value of -1.6) and which
+indicates an alteration of this pathway by the treatment ( Supplementary Materials, Fig. S3A, Table
+S3 ). The interactors were also found to be significantly involved in several
+molecular and cellular functions, such as “DNA Replication, Recombination, and Repair”
+( Supplementary Material, Fig.
+S3B ), and they were connected into a highly scored network within members of this
+function (score 61) ( Supplementary
+Material, Fig. S3C ).
+
+In addition, we detected a new BRCA1 phosphorylation site at position T1834 (located at
+the end of the C-terminal BRCT domain) in the olaparib-treated cells. According to the
+PhosphoSitePlus database ( www.phosphosite.org ) there are 109 BRCA1 phosphorylation sites reported up
+to date and they are implicated in various cellular processes ( Supplementary Material, Fig. S4 ).
+However, the phosphorylation site at threonine 1834 has not been previously reported and
+could be therefore connected to an olaparib-specific response. According to the GPS 3.0
+kinase prediction software ( 19 ), MLK3 is the
+most likely regulatory kinase responsible for olaparib-induced BRCA1 T1834 phosphorylation
+( Supplementary Material, Table
+S4 ).
+
+PARP1 enzymatic activity positively correlates with sensitivity of cells to
+olaparib
+
+In order to explain the mutation type-dependent differences in the response of cells to
+olaparib we investigated factors that could potentially influence sensitivity to this
+treatment, including PARP1 gene and protein expression and its enzymatic
+activity. PARP1 mRNA expression was significantly decreased in cells
+harbouring truncating variants in BRCA1 compared to WT controls ( Fig. 3A ; P = 0.028), the same
+cell lines which showed significantly lower expression of BRCA1 (15).
+However, although PARP1 mRNA and protein expression were significantly positively
+correlated ( Fig.
+3C; P = 0.027), differences in PARP1 protein levels between WT and
+truncating groups failed to reach statistical significance ( Fig. 3B–D ). Cells with missense and truncating variants showed no
+significant differences in PARP1 protein levels.
+
+PARP1 mRNA and protein expression in LCLs.
+( A ) Relative PARP1 mRNA level in 6 WT LCLs, 5 LCLs
+carrying missense pathogenic variants, and 10 LCLs with truncating variants in BRCA1 (two-tailed Student’s t-test; P = 0.028
+for comparison between WT and truncating LCLs; mean of 1.270 ± 0.05 SEM for WT,
+1.151 ± 0.05 SEM for missense LCLs, and 1.081 ± 0.05 SEM for truncating LCLs).
+( B ) PARP1 protein level in control LCLs and cells harbouring missense
+or truncating heterozygous mutation in BRCA1 gene (two-tailed
+Student’s t-test; P = 0.073 for comparison between WT and
+truncating LCLs; mean of 1.569 ± 0.18 SEM for WT, 1.482 ± 0.26 SEM for missense
+LCLs, and 1.129 ± 0.14 SEM for truncating LCLs). ( C ) Significant
+positive Pearson correlation between PARP1 mRNA and protein levels
+in a panel of LCLs. ( D ) Western blot analysis of PARP1 expression in a
+panel of LCLs. Full-length PARP1 (116 kDa) and the large fragment of cleaved PARP1
+(89 kDa) were detected using anti-PARP1 antibody and β-actin served as a loading
+control. First sample in each blot is identical (WT cell line 09S179-L) and served
+for between blots-normalization when analysing protein band densities by ImageJ. *
+indicates LCLs which could not be included in the final panel of analysed cell
+lines.
+
+Since it has been previously demonstrated that PARP1 expression and
+protein level only partially correlate with its enzymatic activity ( 20 , 21 ) we checked
+the activity in LCLs using two distinct methods. Measuring poly ADP-ribose (PAR) levels by
+Western blot did not reveal any statistically significant differences between groups of
+cells ( Fig. 4A ). In order to measure the
+enzymatic activity more precisely, we used a modified in vitro PARP
+activity assay that allowed us to determine basal PARP activity in cell lysates (i.e.
+non-induced naturally activated PARP present in LCLs). There were no statistically
+significant differences between groups of LCLs depending on their BRCA1 mutation status ( Fig. 4B ). Nevertheless,
+results from both experiments indicate that cells harbouring missense pathogenic variants
+show slightly elevated PARP activity than cells with truncating mutation ( Fig. 4A and B ), which could make them less
+tolerant to PARPi. Indeed, a trend for increased PARP activity in the missense variants
+correlated with increased sensitivity to olaparib ( Fig. 4C ) although a causal relationship cannot be demonstrated.
+
+PARP enzymatic activity in LCLs. ( A ) Western blot
+analysis of PAR polymers in whole cell lysates isolated from 6 WT LCLs, 5 LCLs
+carrying missense pathogenic variant, and 10 LCLs with truncating variants in BRCA1 . PAR was detected using anti-PAR antibody and β-actin
+served as a loading control. The first sample in each blot is identical (WT cell
+line 09S179-L) and served for between blot normalisation when analysing protein band
+densities. Asterisks indicate cell lines which could not be included in the final
+panel of LCLs ( B ) Relative PAR polymer levels in whole cell lysates
+isolated from a panel of LCLs. The intensity of protein bands was quantified by
+Image-J and normalised to WT sample 09S179-L. Median of the data is represented by
+the line inside the box plots (median of 1.74 ± 0.15 SEM for WT, 1.76 ± 0.30 SEM for
+missense LCLs, and 1.49 ± 0.22 SEM for truncating LCLs). ( C ) PARP
+activity in the cellular extracts of LCLs measured as the amount of ribosylation on
+histone-coated plates. Line inside of the box plot indicate median of the data
+(median of 32.48 ± 2.95 SEM for WT, 35.33 ± 2.15 SEM for missense LCLs, and
+33.42 ± 1.67 SEM for truncating LCLs). Graph shows representative results from one
+out of three independent experiments. (D) Pearson correlation between PARP enzymatic
+activity and viability of LCLs treated with 4μM olaparib.
+
+No association between the sensitivity of cells to olaparib and BRCA1 or PARP1 gene expression was found (P values 0.660 and 0.653,
+respectively, for treatment with 8μM olaparib), indicating that expression levels of these
+two proteins do not play a role in regulation of the response to this agent.
+
+BRCA1 recruitment into γH2AX foci is lower in cells with missense mutation in the
+BRCT domain than in cells with truncating mutation
+
+A recent report from Li et al describes a biphasic recruitment of the
+BRCA1 tumour suppressor into DNA damage sites ( 22 ). The early recruitment is dependent on PAR recognition by the BRCA1-BARD1
+protein complex whereas the later phase requires functional BRCA1 BRCT domains. Thus,
+using PARP inhibitors in cells with altered BRCT domain would lead to an alteration of
+both BRCA1 recruitment phases, reassessing the hypothesis of a dominant-negative effect.
+High-throughput confocal microscopy was used to evaluate BRCA1 recruitment into DNA damage
+sites (measured by the intensity of the BRCA1 signal within γH2AX foci) in twelve
+DMSO-treated (control) or olaparib-treated LCLs.
+
+Already under control conditions, BRCA1 signal intensity in γH2AX foci significantly
+varied among groups of LCLs, being the highest in WTs, lower in TRUN and the lowest in
+cells with a missense mutation in the BRCA1 BRCT domain ( P value < 0.001 in all comparisons) ( Fig.
+5A ). As expected, olaparib treatment significantly increased nuclear γH2AX levels
+( Supplementary Material, Fig.
+S5 ; P value < 0.001 in all comparisons), which was
+accompanied by elevated BRCA1 recruitment in all groups of cells ( Fig. 5A ). However, the cells with BRCT missense mutations again
+showed the lowest BRCA1 signal within γH2AX foci from all groups.
+
+Effect of
+the BRCA1 mutation type on BRCA1 recruitment into γH2AX sites after treatment with
+olaparib. ( A ) High-throughput microscopy quantification of BRCA1 signal
+intensity in γH2AX foci of 12 LCLs treated with DMSO (control) or 10μM olaparib
+(OLP). The columns represent mean signal intensities detected in 1500 individual
+nuclei of four LCLs per group (4 WTs, 4 MIS, 4 TRUN). The differences between groups
+were evaluated using Mann-Whitney U test. Data are representative of two replicates.
+Error bars indicate SD. *** P < 0.001. (B) Pearson correlation
+between cellular viability (after treatment of cells with 8μM OLP for 72 h) and
+BRCA1 signal intensity in DMSO-treated (left) or OLP-treated LCLs
+(right).
+
+Importantly, BRCA1 recruitment in both DMSO- and olaparib-treated cells was strongly
+positively correlated with cellular viability after treatment with olaparib ( Fig. 5B ), suggesting a possible causal
+relationship. The recruitment of the protein was not associated with total BRCA1 levels
+( r = 0.121; P = 0.709), indicating that the presence
+of a functional BRCA1 protein in DNA damage sites, and not the overall BRCA1 protein
+expression, influences the sensitivity of cells to olaparib.
+
+Discussion
+
+Olaparib is the first PARP inhibitor being approved by the European Commission as a
+maintenance treatment for platinum-sensitive relapsed BRCA -mutated
+high-grade serous epithelial ovarian cancer and by the FDA for treatment of recurrent
+ovarian cancer in BRCA -mutated women ( 10 ). However, not all patients that are carriers of BRCA pathogenic variants respond to the drug and a substantial fraction
+of them displays resistance and adverse reactions following the treatment ( 9 , 10 ), indicating the need to further investigate the best use of these compounds in
+the clinics ( 23 ). There is increasing evidence
+that heterozygous pathogenic variants in the BRCA1 gene lead to
+haploinsufficiency for some of the multiple BRCA1 functions, including homologous
+recombination, repair of stalled replication forks and maintenance of genome integrity
+( 15 , 24–26 ). The diversity of BRCA1 functions
+indicates that different pathogenic BRCA1 alleles may lead to distinct
+phenotypic effects in mutation carriers. Thus, we aimed to investigate whether carrying
+various heterozygous pathogenic variants in the BRCA1 gene increases
+cellular sensitivity to olaparib and whether and how BRCA1 mutation types
+influence such sensitivity.
+
+Strikingly, while the treatment led to a comparable sensitivity of cells harbouring
+heterozygous truncating mutations as in WT cells, cell lines carrying the two studied
+missense variants (c.5117G > A and c.5123C > A) were the most sensitive group.
+Previous studies failed to observe increased sensitivity of BRCA1 -heterozygous cells to olaparib unless they were pre-treated with
+either ionization irradiation or UV ( 24 , 27 ). However, these reports were focussed on
+truncating mutations while we are, for the first time, analysing carriers of recurrent
+missense pathogenic variants in the BRCA1 BRCT domains. A recent study suggests that
+response to PARP inhibitor depends on the type of FANCD1 / BRCA2 mutation, supporting our results and
+indicating that different mutations in DNA repair genes lead to variable phenotypes ( 28 ). Our results indicate that treatment with
+olaparib could lead to an increased toxicity to the drug in individuals carrying
+c.5117G > A or c.5123C > A missense variants. Importantly, the olaparib concentration
+range used in our experiments was comparable to the peak plasma levels found in patients
+treated with this agent in clinical trials. It will be crucial to further validate our
+findings in available clinical data and check the level of toxicity and treatment outcomes
+in the variant carriers.
+
+In our attempt to explain why cells harbouring c.5117G > A and c.5123C > A pathogenic
+variants in the BRCA1 BRCT domains are more sensitive to olaparib we explored the idea of a
+dominant-negative effect. Taking into account the expected presence of mutated protein in
+cells carrying missense mutation and the absence of truncated protein in cells carrying most
+of the truncating variants ( 15 ), there is a
+possibility that the missense variants compete with the WT protein for certain functions.
+Since the BRCA1 BRCT domains are known to be involved in the transcriptional activation of
+target genes ( 29 ) we used a well characterised
+transcriptional activation assay ( 30–32 ) to test if the increased sensitivity
+of cells with the studied missense mutation to olaparib is caused by a dominant-negative
+effect on the BRCT-mediated transcriptional activation function.
+
+Mimicking the heterozygous status present in mutated LCLs by simultaneous co-expression of
+WT and A1708E missense variant led to a comparable phenotype as over-expression of WT alone.
+These findings suggest that A1708E does not influence the WT transcriptional activation
+function, at least in our experimental design when using a fragment of the BRCA1 protein.
+Thus, a dominant-negative effect in the transcriptional activation function of the BRCA1
+BRCT domain does not seem to be involved in the differences in response of cells to
+olaparib.
+
+The high number of BRCT protein interactors allows BRCA1 to play a role in so complex
+cellular processes like cell cycle checkpoint regulation and maintenance of genomic
+stability ( 33 ). Thus, in order to further
+puzzle out whether and how olaparib treatment affects functions mediated by the BRCA1 BRCT
+domain, we looked at the BRCA1 BRCT protein interactors in olaparib-treated cells. We
+identified 11 olaparib treatment-specific BRCA1 BRCT interactors, which are involved in
+various biological processes, such as cell cycle and transcription regulation.
+
+The enrichment analysis revealed that the BRCT domains of BRCA1 interacts with proteins
+involved in canonical pathways such as DNA damage response, hereditary breast cancer and
+oestrogen signalling, or assembly of the RNA polymerase II Complex. Such results are in line
+with previously known roles of BRCA1 BRCT in the maintenance of genome integrity, regulation
+of cell cycle checkpoint and gene expression ( 29 ). Interestingly, the canonical pathway “Role of BRCA1 in DNA Damage Response”
+was downregulated upon olaparib treatment, in particular, most of the members of the BRCA1-A
+complex (including RAP80, BRCC3, Abraxas) showed decreased binding to BRCA1 BRCT in response
+to olaparib ( Supplementary Material,
+Table S3 ). Decreased binding of RAP80 is in agreement with previously described
+interaction of the protein complex PARP1-BRCA1-RAP80 which is dependent on PARP1-mediated
+PARsylation of BRCA1, which is inhibited upon olaparib treatment ( 34 , 35 ). Since the
+BRCA1-A complex plays a crucial role in DNA damage response by recognition of ubiquitinated
+H2AX and recruiting BRCA1 into the DNA damage site ( 36 , 37 ), olaparib treatment might
+thus partially affect this BRCA1-mediated function.
+
+In addition, olaparib treatment induced phosphorylation of BRCA1 on the threonine residue
+at position 1834, which is located at the very end of the C-terminal BRCT domain.
+Phosphorylation of more than 100 distinct sites have been identified in BRCA1 up to date,
+however, their involvement in various cellular processes is elucidated only for some of them
+( 38 ). Output from the kinase prediction
+software GPS3.0 indicates the pro-apoptotic mixed lineage kinase 3 (MLK3) ( 39 ) as the most likely for this olaparib-induced
+BRCA1 phosphorylation.
+
+When examining factors that could influence the cellular response to olaparib, we observed
+a slightly elevated, although not significant, PARP activity in cells harbouring
+c.5117G > A and c.5123C > A pathogenic missense variants in comparison to cells with
+truncating variants, indicating differences between these BRCA1 mutation
+types that might partially modulate their response to PARP inhibition ( Fig. 4A and B ). Indeed, the correlation between basal PARP
+enzymatic activity and sensitivity of cells to olaparib ( Fig. 4C ) indicates that it is, at least partially, dependent on the
+ability of PARP to play its enzymatic role. Previous research shows that hyperactivation of
+PARP1 is associated with an increased sensitivity of cells to PARP inhibitors, caused by a
+homologous recombination-defective phenotype ( 40 ).
+
+To further explore the correlation between cellular sensitivity to olaparib and PARP
+enzymatic activity we investigated their connection to BRCA1-mediated DNA repair. Following
+on the exploration of the dominant-negative effect of our missense variants to explain their
+higher sensitivity to olaparib we tested a model that involves previously described
+two-phase BRCA1 recruitment to the DNA DSBs ( 22 , 41 ). Based on the research
+carried on by Li et al. , WT BRCA1 heterodimerizes with BARD1 through its
+RING domain and is recruited into DSB ends by the interaction of BARD1 with PAR polymers
+within a minute post damage (early recruitment) ( Fig.
+6A ). The late recruitment of BRCA1 into γH2AX foci, phosphorylated H2AX playing a
+critical role in downstream signalling after the formation of DSBs and in retention of
+repair factors in the site of damaged DNA ( 42 ), takes part within minutes after damage. It requires functional BRCA1 BRCT
+domains and is dependent on a direct interaction with p-Abraxas, a member of the BRCA1-A
+complex subunit.
+
+Figure
+6.
+
+A hypothesized effect of missense mutation in BRCA1 BRCT domain on
+the protein recruitment to the DNA DSBs after treatment with olaparib.
+( A ) During the early recruitment phase, WT BRCA1 interacts with BARD1
+through their RING domain and a recruitment of the heterodimer into DSB is mediated by
+BARD1 BRCT recognition of PAR. On the other hand, the late phase is dependent on BRCA1
+BRCT domains and their interaction with phosphorylated Abraxas, a member of the
+BRCA1-A protein complex (adapted from Baer et al. and Li et
+al. ). ( B ) In WTs, olaparib (OLP) treatment blocks the early
+recruitment phase by inhibition of PAR synthesis, which makes treated cells more
+dependent on the late recruitment phase. According to our results, OLP could also lead
+to phosphorylation of the C-terminal BRCT domain at threonine 1834, and decrease of
+binding of the BRCA1 BRCT domain to BRCA1-A complex. ( C ) OLP treatment of
+cells harbouring heterozygous MIS mutation in the BRCA1 BRCT domain impacts both early
+and late recruitment phases. The altered BRCA1 protein could possibly compete WT BRCA1
+for the members of BRCA1-A complex, which at the end leads to a decreased recruitment
+of the protein to damaged DNA.
+
+We propose that olaparib-induced inhibition of the early recruitment of BRCA1 into DSBs by
+preventing PAR polymerization makes cells more dependent on the late recruitment phase
+( Fig. 6C ). Moreover, olaparib-induced decrease
+in the BRCA1-A complex and BRCT interaction, shown by mass spectrometry, might make the
+cells rely on the remaining functions of the late recruitment stage even more. Cells
+harbouring heterozygous truncating mutation in the BRCA1 gene frequently
+lack the mutated protein due to the degradation of a mutated transcript by the
+nonsense-mediated mRNA decay mechanism ( 15 , 43 ). But the remaining WT protein
+would be able to function in the DSB repair through the late recruitment phase, which is
+consistent with the observed reduced BRCA1 recruitment when compared to WTs. On the other
+hand, cells carrying the two studied heterozygous missense mutations contain both functional
+(WT) and defective (mutant) BRCA1, as indicated by the comparable range of total BRCA1
+protein levels in WT cells and cells carrying the studied missense variants ( 15 ) and detectable, therefore stable, mutants
+overexpressed in our TA assays. Thus, the WT and mutant protein could compete to undergo the
+late recruitment path to repair DNA DSBs ( Fig. 6B and
+D ).
+
+Indeed, confocal microscopy revealed decreased BRCA1 recruitment into γH2AX foci in
+non-treated cells carrying c.5117G > A and c.5123C > A missense variants when compared
+to WTs or cells with truncating mutations ( Fig.
+5A ), supporting our hypothesis about dominant-negative effect of the missense
+mutant. Although the exact mechanism of the reduced recruitment remains to be elucidated, it
+is likely that the non-functional mutant protein competes with WT BRCA1 for the BRCA1-A
+complex, required for an efficient late recruitment into DSBs. The observed correlation
+between BRCA1 recruitment into DSBs and cellular viability of olaparib-treated cells further
+supports our model. Together with the results from Bouwman et al , who
+showed a defect in response to olaparib in BRCT-located mutants R1699Q and V1736A ( 44 ), it seems that the integrity of the BRCA1 BRCT
+domain plays a critical role in sensitivity to this agent. Systematic evaluation of other
+pathogenic variants in the BRCT, e.g. c.5095C > T; p.Arg1699Trp which is shown to lead to
+a stable mutant protein ( 30 ), will be required
+in order to assess the ability of these mutants to act in a dominant-negative manner.
+Interestingly, two recent studies elucidate a new mechanism of acquired resistance to PARP
+inhibitor or cisplatin due to a residual function of RING-less BRCA1 protein ( 45 , 46 ). Thus, missense pathogenic variants in the N-terminal RING domain could
+potentially also lead to PARPi resistance and caution should be taken when studying missense
+pathogenic variants located in different BRCA1 domains.
+
+Overall, our results suggest that carriers of different types of BRCA1 mutations could show different toxicity to PARP inhibitor olaparib and could benefit from
+the treatment in a distinct way. Our findings could be also relevant for a potential use of
+PARP inhibitors as prophylactic agents in BRCA1 mutation carriers ( 47 ). Importantly, although all missense variants
+represent 8.3% of BRCA1 mutations and missense mutations in the BRCT domain
+account for only 2% ( 14 ), our results could be
+particularly important for Spanish population where c.5117G > A, p.Gly1706Glu and
+c.5123C > A, p.Ala1708Glu together represent close to 15% of all mutations found in BRCA1 ( 48 ). Thus, clearly,
+further research on differences between BRCA1 mutation types and the
+biology behind PARP inhibition could be of a great importance, particularly in this
+population.
+
+Materials and Methods
+
+Lymphoblastoid cell lines (LCLs)
+
+LCLs were established by EBV-transformation of peripheral blood lymphocytes from fifteen
+women carrying heterozygous pathogenic variants in BRCA1 ( BRCA1+/- ) and six non-carrier relatives ( BRCA1+/+ )
+( Table 2 ), as previously described ( 15 ). Five LCLs carried one of the two missense
+pathogenic variants located in the BRCT domain of BRCA1 (c.5117G > A; p.Gly1706Glu or
+c.5123C > A; p.Ala1708Glu) and ten LCLs carried variants generating a premature stop
+codon (frameshift, nonsense or splice-site). Mutational analysis has been previously
+performed by Sanger sequencing. None of the women included in this study had personal
+antecedents of cancer.
+
+Panel of lymphoblastoid cell lines
+(LCLs)
+
+a 1-6
+indicate which LCLs were established from relatives (sisters or
+mother/daughter).
+
+b Mutation nomenclature
+listed uses GenBank reference sequences NM_007294.3 with numbering starting at the
+A of the first ATG, following the journal guidelines ( www.hgvs.org/mutnomen );
+p.?, unknown protein nomenclature (variant causing skipping of exon 5 of BRCA1 ).
+
+c NMD not
+activated by the variant (-), degradation of mutated transcript by NMD (+), not
+known functional interpretation (unknown), variant leading to translation
+re-iniciation (re-iniciation).
+
+d NMD status
+determined by prediction according to the CIMBA (The Consortium of Investigators
+of Modifiers of BRCA1/2) database (BRCA1 master list from 19 July 2013) or
+experimentally investigated by Buisson et al. , Human Mutation,
+2006 (marked with an asterisk).
+
+e Age of
+women at the time of blood extraction to establish
+LCL.
+
+Tissue culture and treatments
+
+LCLs were cultured in RPMI-1640 (Sigma-Aldrich) supplemented with 20% FBS
+(Sigma-Aldrich), penicillin-streptomycin (Gibco) and Fungizone (Gibco). Cells were
+cultured in 25 cm 2 flasks (Corning) and maintained in exponential growth by
+daily dilution to 1x10 6 cells/ml in full media. Early passages ( 1–10 ) were used for all experiments.
+
+HEK293FT cells were grown in DMEM media (Sigma-Aldrich) complemented with 10% FBS, 1%
+penicillin-streptomycin, and 0.5% Fungizone.
+
+Where noted, cells were incubated with PARP inhibitor Olaparib (Axon Medchem) or its
+dissolvent DMSO (Sigma) (control) for indicated period of time. All cells were maintained
+in an atmosphere of 5% CO 2 at 37 °C.
+
+MTT colorimetric assay
+
+200ul of cellular suspension was plated in 96-well plate at a density of 10 4 cells/well. Cells were then treated with DMSO or olaparib for 72 h under standard growth
+conditions. As LCLs tend to form large cellular aggregates, they were resuspended daily by
+pipetting up and down in order to ensure equal distribution of the treatment to all cells.
+3 days after the beginning of treatment, 50µl of MTT dissolved in PBS (stock 5mg/ml MTT)
+was added onto a plate and incubated under normal growth conditions for 4 h. 50µl of
+SDS/HCl solution (500ml SDS 10% + 150µL HCl 37%) was transferred into each well, and the
+plates were incubated in a tissue culture incubator for 16 h. Absorbance at 544 nm was
+read on a spectrophotometer (Victor 3 Plate Reader; PerkinElmer), data were normalized to
+a mean absorbance detected in wells containing media without cells (blank), and the
+results were expressed as a percentage of DMSO-treated cells.
+
+Basal PARP enzymatic activity
+
+The PARP enzymatic activity was determined using the HT Chemiluminescent PARP/Apoptosis
+Assay kit (Trevigen; #4685-096-K) according to the manufacturer’s instructions with
+several modifications. 8x10 6 cells were washed once with ice-cold PBS and lyzed
+in 100 μl of Trevigen Cell Extraction Buffer (1x I-PAR Assay buffer; 0.4 mol/L NaCl, 0.9%
+Triton X-100, Complete protease inhibitor cocktail [Roche]) on ice for 30 min and
+periodically vortexed. After centrifugation of the cellular lysates at 10,000×g at 4 °C
+for 10 min, protein concentration was quantified using DC Protein Assay Kit II (Bio-Rad)
+using BSA as a standard. The cellular lysate (10 μg/well) was added in duplicates to the
+wells of 96-well plate, which contained PARP buffer and PARP cocktail, and incubated at
+room temperature for 1 h. Activated DNA was added only to the standards but not to
+extracts, which allowed to measure the basal enzymatic activity. Wells were washed with
+PBS and 0.1% Triton X-100 (PBS-T) and incubated with streptavidin horseradish peroxidase
+for 1 h and washed again. Chemiluminescent detection was performed according to the
+manufacturer’s instructions (EnVision Multilabel Plate Reader; PerkinElmer). The
+background luminescence (blank) was subtracted from the readings of the samples and
+standards served for calculation of PARP activity from a standard curve.
+
+Cellular growth rate calculation
+
+Differences in the cellular growth rate were determined using the above mentioned MTT
+colorimetric assay with some modifications. From each LCL 10 4 cells/well/200ul
+full media were plated in hexaplicates into two separate 96-well plates. The first plate
+was subjected to an MTT addition at time 0 h whereas the MTT solution was added into the
+second plate 72 h later, i.e. the same duration as for determination of sensitivity to
+PARP inhibitors was used to determine the growth rate of LCLs. Plates were incubated with
+the MTT for 4 h which was followed by incubation with SDS/HCl solution for additional
+16 h. Absorbance at 544 nm was measured on a spectrophotometer and the data were
+normalized to a mean absorbance detected in wells containing media without cells. The
+growth rate was calculated as a ratio between the mean absorbance from 72-h timepoint and
+the mean absorbance at 0 h.
+
+RNA extraction and quantification
+
+RNA was extracted using TRIzol Reagent (Invitrogen) according to the manufactureŕs
+instructions. RNA quality and quantity was determined using LabChip technology on Agilent
+2100 BioAnalyser (Agilent Technologies) with the value of RNA integrity number (RIN)
+between 9.9 and 10.0.
+
+Quantitative real-time RT-PCR
+
+500ng of total RNA was reverse-transcribed by High-Capacity cDNA Reverse Transcription
+Kit (Applied Biosystems) according to the manufactureŕs instructions. Using labelled
+probes (Roche Universal ProbeLibrary) and TaqMan Universal PCR Mix the cDNAs were analysed
+by quantitative RT-PCR assay in an ABI Prism Sequence Detection System 7900HT (Applied
+Biosystems).
+
+F-primer 5´-CTGGAGGACGACAAGGAAAA-3’ and R-primer 5´-TGTTGCTACCGATCACCGTA-3’ were used in
+the quantitative RT-PCR for detection of PARP1 expression. Expression
+levels of HPRT1 and MRLP19 were used as internal
+controls and enabled normalization of the samples. Three independent experiments were
+performed and the relative expression was calculated using a comparative Ct method.
+
+Western blot analysis
+
+For PARP1 and PAR protein detection, whole cell lysates were prepared. Shortly,
+exponentially growing LCLs were harvested by centrifugation, washed twice with ice cold
+PBS and lysed in RIPA buffer (Sigma-Aldrich) containing protease inhibitor (Roche) for 1 h
+on ice. Lysates were centrifuged at 16,000 g for 20 min at 4 °C and supernatants were
+transferred into new tubes for further protein quantification using Bio-Rad protein assay
+kit.
+
+75μg of proteins from whole cell lysate was loaded per well of 4–12% Bis-Tris gel
+(Invitrogen). Separated proteins were transferred to a nitrocellulose membrane (Whatman)
+using the NuPage transfer system (Invitrogen) and the membrane was then blocked in Tris
+buffered saline containing 0.05% Tween-20 (TBS-T) and 5% milk. Blots were probed with
+following primary antibodies: rabbit anti-PARP1 (Cell Signaling; #9542), rabbit anti-PAR
+(Calbiochem; #528815), rabbit anti-RAD51 (Santa Cruz; #sc-8349), rabbit anti-GAL4-DBD
+(Santa Cruz; #sc-577). Mouse anti-β-actin (Sigma; #A5441) served as loading control. The
+secondary antibodies were HRP-conjugated (Dako) and the immunoblots were developed using
+the ECL system (GE Healthcare). Western blot X-ray films (Kodak) were scanned and analysed
+using ImageJ software.
+
+BRCA1 transcriptional activation assay
+
+A construct containing WT BRCA1 fragment (range of amino acids 1396 − 1863) was used as a
+positive control and deleterious variant M1775R as a negative control (Carvalho et
+al , 2009) ( 31 ). HEK293FT cells
+were seeded in 24-well tissue culture plates in a concentration 5 × 10 4 cells/well. 24 h later, cells were transfected with vectors containing studied BRCA1
+variants in triplicates with Fugene 6 (Promega) according to the manufacturer's
+instructions. To mimic the heterozygous status, co-transfection of WT BRCA1 and pFLAG-CMV3
+vector containing the BRCA1 A1708E variant (exons 16–24) and lacking the GAL4 DNA binding
+domain (GAL4-DBD) was performed. The vectors containing the variants were co-transfected
+with pG5Luc, which contains a firefly luciferase reporter gene driven by GAL4-responsive
+binding sites, and phGR-TK, which contains a Renilla luciferase gene
+driven by a constitutive TK basal promoter used as an internal control. 24 h
+post-transfection, growth medium was replaced by a medium containing either DMSO or 16μM
+OLP. Cells were harvested 24 h after the treatment, and luciferase activity was measured
+using the Dual-Luciferase Reporter Assay System (Promega) following the manufacturer's
+instructions. Activity was plotted as a percentage of the WT BRCA1 activity of
+DMSO-treated cells.
+
+Mass spectrometry
+
+DMSO- or 16μM OLP-treated HEK293FT cells overexpressing pNTAP-BRCA1-BRCT construct were
+collected, lysed and proteins were extracted. Previously described protocol was used
+(Woods et al , 2012) to perform the mass spectrometry experiment. Briefly,
+protein fractions created by SDS-PAGE were excised, destained, reduced, alkylated and
+digested with trypsin (Promega). Peptides were eluted from the gel and concentrated using
+vacuum centrifugation. A nanoflow liquid chromatograph (U3000, Dionex, Sunnyvale, CA)
+coupled to an electrospray ion trap mass spectrometer (LTQ or LTQ-Orbitrap, Thermo, San
+Jose, CA) was used for tandem mass spectrometry peptide sequencing. Raw files were
+searched against the SwissProt human database (release year 2014) using a search engine
+Mascot (Matrix Science) (Perkins et al . 1999). The
+assignments were manually verified by inspection of the tandem mass spectra and coalesced
+into Scaffold reports (v.2.0, available at www.proteomesoftware.com ) for
+statistical analysis and data presentation. The Scaffold software was used to validate
+MS-MS based peptide and protein identifications. After applying the SAINT (Significance
+Analysis of INTeractome) algorithm and setting a probability threshold of 0.8 − 1, a final
+list of 121 protein interactors was selected.
+
+BRCA1 recruitment into DNA double-strand breaks (DSBs)
+
+Twelve DMSO- (control) and 10μM OLP-treated LCLs were seeded into poly-L-lysine-coated
+(Sigma-Aldrich) µCLEAR bottom 96-well plate (Greiner Bio-One) at a density 75000
+cells/100ul full media/well and cultured 2 h before fixation with 4% paraformaldehyde
+(Aname). Cells were then permeabilised with 0.5% Triton X-100 in PBS and stained with
+primary and secondary antibodies: rabbit anti-γH2AX (Abcam; #ab11174), mouse anti-BRCA1
+(Calbiochem; #OP92), anti-mouse Alexa Fluor 488- and anti-rabbit Alexa Fluor
+568-conjugated secondary antibodies from Molecular Probes (Invitrogen; #A-11034 and
+#A-11031, respectively). 4′,6-Diamidino-2-phenylindole dihydrochloride (DAPI) was used to
+visualize nuclei. Fluorescent images were automatically acquired from each well of the
+96-well plate using an Opera High-Content Screening System (Perkin Elmer). Pictures were
+taken at no saturating conditions using a 40x magnification lens and the intensity of
+BRCA1 fluorescent signal within detected γH2AX nuclear foci was evaluated for each LCL.
+Only cells with at least 1 γH2AX nuclear foci were analysed and 1500 cells/LCL (merge of
+two duplicates) were included in the analysis.
+
+Statistical analyses
+
+To test the statistical difference between groups of LCLs independent samples Student´s
+t-test was used for normally distributed variables and Mann-Whitney U test for non-normal
+data distribution. Calculations were done using SPSS Statistics software (version 17.0;
+IBM) and plots were created with GraphPad Prism (version 5.03; GraphPad Software
+( www.graphpad.com ) and Microsoft Office
+Excel, Microsoft).
+
+Supplementary Material
+
+Supplementary Material is
+available at HMG online.
+
+Supplementary Material
+
+Acknowledgements
+
+We thank all the families who volunteered to participate in this study and the Cellex
+Foundation.
+
+Conflict of Interest statement . None declared.
+
+Funding
+
+The study was funded by the Spanish Ministry of Economy and Competitiveness (MINECO)
+SAF2014-57680-R and the Spanish Network on Rare Diseases (CIBERER). This work was
+partially supported by NIH U01 award CA116167 and a grant from the Florida Breast Cancer
+Foundation.
+
+References
+
+Associated Data
+
+This section collects any data citations, data availability statements, or supplementary materials included in this article.
+
+Supplementary Materials

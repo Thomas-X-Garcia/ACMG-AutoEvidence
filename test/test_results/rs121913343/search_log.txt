@@ -1,0 +1,39 @@
+Search performed: 2025-07-17 23:42:34.840326
+Terms: rs121913343, 17:43092918:G:A, NM_007294.4(BRCA1):c.5123C>T(p.Ala1708Val), BRCA1 c.5123C>T, BRCA1 p.Ala1708Val, BRCA1 Ala1708Val, BRCA1 p.A1708V, BRCA1 A1708V
+
+Term: NM_007294.4(BRCA1):c.5123C>T(p.Ala1708Val)
+  Valid: True
+  PMIDs: 0
+
+Term: rs121913343
+  Valid: False
+  PMIDs: 0
+  Error: Phrases not found: rs121913343
+
+Term: 17:43092918:G:A
+  Valid: False
+  PMIDs: 0
+  Error: Phrases not found: 43092918
+
+Term: BRCA1 c.5123C>T
+  Valid: True
+  PMIDs: 9
+
+Term: BRCA1 p.Ala1708Val
+  Valid: True
+  PMIDs: 1
+
+Term: BRCA1 Ala1708Val
+  Valid: True
+  PMIDs: 1
+
+Term: BRCA1 A1708V
+  Valid: True
+  PMIDs: 1
+
+Term: BRCA1 p.A1708V
+  Valid: False
+  PMIDs: 0
+  Error: Phrases not found: p.A1708V
+
+Total unique PMIDs: 11

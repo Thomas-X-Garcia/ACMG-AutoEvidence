@@ -1,0 +1,141 @@
+Title: Low Prevalence of the Four Common Colombian Founder Mutations in BRCA1 and BRCA2 in Early‐Onset and Familial Afro‐Colombian Patients with Breast Cancer
+
+Elizabeth Vargas
+
+Diana Maria Torres Lopez
+
+Robert de Deugd
+
+Fabian Gil
+
+Alejandra Nova
+
+Lina Mora
+
+Luis Fernando Viaña
+
+José David Hernandez
+
+Ricardo Bruges
+
+Ute Hamann
+
+Received 2018 Jun 14; Accepted 2018 Oct 16; Issue date 2019 Jul.
+
+Inherited mutations in the breast cancer susceptibility genes BRCA1 and BRCA2 confer a high risk of breast and ovarian cancer. This article reports on the contribution of the four Common Colombian Founder mutations in BRCA1/2 in early‐onset and familial breast cancer in the Afro‐Colombian population.
+
+Keywords: BRCA1/2 , Founder mutations, Hereditary breast cancer, Afro‐Colombians
+
+Abstract
+
+Background.
+
+Inherited mutations in the breast cancer susceptibility genes BRCA1 and BRCA2 ( BRCA1/2 ) confer high risks of breast and ovarian cancer. In Colombian Hispanic families, four common BRCA1/2 founder mutations have previously been identified. Because nothing is known about the contribution of BRCA1/2 germline mutations to early‐onset and hereditary breast and/or ovarian cancer in Afro‐Colombians, we conducted the first study on 60 patients with early‐onset and familial breast cancer in this population.
+
+Materials and Methods.
+
+Screening for the four Colombian founder mutations BRCA1 /c.3331_3334delCAAG, BRCA1 /c.5123C>A, BRCA2 /c.2806_2809delAAAC, and BRCA2 /c.1763_1766delATAA was performed using mismatch polymerase chain reaction (PCR) analysis, PCR‐based restriction fragment length polymorphism analysis, and qualitative real‐time PCR. Mutations were confirmed by direct DNA sequencing.
+
+Results.
+
+The BRCA1 founder mutation c.5123C>A was identified in one family with breast and ovarian cancer (1/60, 1.7%). Three women were diagnosed with breast cancer, including one with bilateral disease, at the ages of 30, 30/33, and 52 years, and one woman was diagnosed with ovarian cancer at the age of 60 years.
+
+Conclusion.
+
+Our data showed a low prevalence of the BRCA1/2 founder mutations in Colombians of African descent, implying that these mutations should not be recommended for genetic screening programs in the Afro‐Colombian population.
+
+Implications for Practice.
+
+Risk reduction intervention programs are needed for women who are found to carry a BRCA1/2 mutation, as is the implementation of prevention programs for patients with inherited breast cancer, to reduce the burden of inherited diseases. With the aim of reducing racial disparities in breast cancer prevention, this study focused on genetic testing and treatment for patients in a minority population with BRCA1/2 mutations.
+
+Introduction
+
+Breast cancer (BC) is the major cause of morbidity and mortality as it is the most common invasive cancer in women worldwide accounting for about 20% of all malignancies. In Colombia, BC is the main cause of cancer‐related death among women, with incidence and mortality age‐standardized (world) rates of 35.7 and 10.8 cases per 100,000 person‐years, respectively [ 1 ]. The contribution of BRCA1/2 to hereditary BC in 121 Hispanic families from Colombia resulted in the identification of two founder mutations in BRCA1 (c.3331_3334delCAAG and c.5123C>A) and two in BRCA2 (c.2806_2809delAAAC and c.1763_1766delATAA), which account for 58% of all BRCA1/2 mutations identified in this population [ 2 ], [ 3 ]. The spectrum of mutations in the BRCA1/2 genes has been extensively analyzed in various populations, mostly from Europe and Asia [ 4 ], [ 5 ], [ 6 ], [ 7 ]. In contrast, little data exist on the contribution of these genes to hereditary BC in Africans and African Americans, even though these populations suffer from a disproportionate burden of early‐on set disease, aggressive tumor features, and higher mortality rates that in many ways are similar to those of BRCA1 ‐associated BCs.
+
+After Brazil, Colombia has the largest population of African descent in Latin America (the African Diaspora in Colombia). It is made up of three ethnic groups, the Afro‐Colombian, “Raizal,” and “Palenquero.” The term “Afro‐Colombians” refers to Colombians of African ancestry. The term Raizal refers to the native people of the archipelago of San Andrés, Providencia, and Santa Catalina, populated mainly by African slaves brought by the British who decided to settle in the Colombian's islands that were ignored by the Spanish in the 15th century. The term Palenquero refers to African slaves escaped in search of freedom, mainly concentrated in the “Palenque of San Basilio,” the only village that remained and is recognized as such today. Historical evidence suggests a complex genetic structure of the Colombian population, which settled as a result of a strong miscegenation between Europeans (mainly men from Spain and Portugal) and native women and to a lesser extent between Europeans and Africans who came to the Americas as slaves in the 15th and 16th centuries, mainly from Guinea, Congo, Angola, and Mozambique [ 8 ]. After the abolition of slavery in 1851, the Colombian government promoted the ideology of “mestizaje,” meaning the mixing of African and indigenous people with white Spaniards and their descendants. Today, the population of black people composes 36%–40% of the national population. This percentage is higher than the official percentage of 10.6% given by the 2005 population census, which was partly due to the lack of self‐recognition as Afro‐descendant [ 9 ].
+
+Given the lack of data on the contribution of BRCA1/2 mutations to early‐onset and familial BC in the Afro‐Colombian population, we screened 60 Afro‐Colombian families with breast and/or ovarian cancer for the four known Colombian BRCA1/2 founder mutations.
+
+Subjects, Materials, and Methods
+
+Study Population
+
+Families of African descent with breast and/or ovarian cancer were ascertained at the Cancer Leagues in Cartagena, Quibdó, and San Andres Island, in the time period from March to December, 2016. Sixty index patients from families with breast and/or ovarian cancer who reported to be of African descent (52 Afro‐Colombians and 8 Raizals) and a diagnosis of primary BC were selected for genetic testing after genetic counseling. They were classified into three categories based on family history of cancer: group A1, families with one woman with BC diagnosed ≤35 years of age; group A2, families with two or more women with BC diagnosed at any age; and group A3, families with at least one woman with BC and at least one with ovarian cancer diagnosed at any age.
+
+Information on ethnicity and personal and family history of BC was obtained from all study participants using self‐filled questionnaires. Clinical and histopathological data were collected from the clinical records, including histological type, tumor size, lymph node status, M status, grade, stage, estrogen receptor (ER) status, progesterone receptor (PR) status, human epidermal growth factor receptor 2 (HER2) status, and triple‐negative BC (TNBC) status. Informed consent was signed by all study participants. The research protocol was approved by the Ethics Committee of the Pontificia Universidad Javeriana in Bogota, Colombia.
+
+Mutation Screening
+
+Genomic DNA was extracted from 14 ml of peripheral blood collected into an EDTA tube using the salting out extraction method [ 10 ].
+
+The prevalence of the four Colombian founder mutations was assessed in the 60 index patients of the families with breast and/or ovarian cancer. Screening for BRCA1/ c.3331_3334delCAAG, BRCA2/ c.1763_1766delATAA, and BRCA2 /c.2806_2809delAAAC was performed by mismatch polymerase chain reaction (PCR) and for BRCA1/ c.5123C>A by PCR‐based restriction fragment length polymorphism (RFLP) analysis as described previously [ 3 ]. In addition, the analysis of the four mutations was performed by TaqMan real‐time PCR.
+
+Samples revealing a variation in the applied assays were sequenced using an automated DNA CEQ 8000 sequencer (Beckman, Hilden, Germany) according to the manufacturer's instructions.
+
+For BRCA1 /c.5123C>A, real‐time PCR reaction was set up in 20 μl containing 2 μl of 100 ng genomic DNA as template, 2 μl of 10x Faststart Hyprobe Master, 1.2 μl of 2.5 mM MgCl 2 , 2 μl of the 0.3 μM simple probe. Final primer concentrations for the asymmetric real‐time PCR were 0.5 μM for the forward primer and 0.625 μM for the reverse primer. The following primers embracing BRCA1 /A1708E were designed in silico with the Primer Premier Software: 5′‐CTTTGAGTGTTTTTCATTCTGC‐3′ (forward primer) and 5′‐TGGTAACTCAGACTCAGCATCA‐3′ (reverse primer). The labeled hybridization probe was designed (5′‐CATTTTCCTCCCTCAAXITTCCTAGAA‐3′) for the mutant BRCA1 /c.5123A allele (mut‐probe). Primers and probe were synthesized by TIB MOLBIOL (Howell, NJ, USA). The cycling protocol consisted of pre‐incubation at 95°C for 10 minutes, followed by 45 cycles of denaturation at 95°C for 5 seconds, annealing at 54°C for 10 seconds and extension at 72°C for 15 seconds. Immediately after amplification, melting curve analysis was performed on the LightCycler 96 (Roche Applied Science, Germany). The melting curve protocol included raising the temperature at 95°C for 30 seconds, cooling to 43°C for 2 minutes, and slow heating to 75°C with hold times of 1 second.
+
+DNA samples from positive controls were available for all four BRCA1/2 founder mutations. Mutation carriers have been previously identified in Hispanic families from Colombia with breast and/or ovarian cancer [ 2 ], [ 3 ]. Genotyping of BRCA1/ c.3331_3334delCAAG, BRCA2/ c.1763_1766delATAA, and BRCA2 /c.2806_2809delAAAC by mismatch PCR and TaqMan real‐time PCR is shown in supplemental online Figure 1 and of BRCA1 /c.5123C>A by PCR‐based RFLP and TaqMan real‐time PCR in supplemental online Figure 2 .
+
+Statistical Analysis
+
+The estimation of the prevalence of each of the four Colombian BRCA1/2 founder mutations and the likelihood that at least one woman harbors one of these mutations was attended by 95% confidence intervals using Stata 14.2 (StataCorp. 2015. Stata Statistical Software: Release 14. College Station, TX: StataCorp LP.). Exact confidence intervals (CI) for binomial probabilities were computed using the Wilson's method.
+
+Results
+
+The present study included 60 probands from 51 families with BC and 9 families with breast and ovarian cancer. Selected clinical and histopathological features are shown in Table 1 . Six patients were diagnosed with ductal in situ carcinoma, 47 with ductal invasive carcinoma, five with lobular invasive carcinoma, and two with mixed tumors. Twenty patients (34%) were diagnosed with BC before 45 years of age, and ten (17%) were diagnosed with triple‐negative disease. The median age of diagnosis was 49 years (range, 24–70) for women with BC ( n = 60).
+
+Table 1. Clinical features of the 60 Afro‐Colombian index patients and tumor characteristics.
+
+Mixed: ductal invasive and papillary, ductal invasive and medullary.
+
+Table 2. Distribution of the examined families in risk groups and corresponding BRCA1/2 founder mutation frequencies.
+
+The BRCA1/ c.5123C>A was identified in one out of the 60 patients (1.7%; 95% CI, 0.2– 8.9) The results of the mutation analyses are shown in supplemental online Figure 2 . The deleterious mutation was identified in a family with breast and ovarian cancer. The affected proband was diagnosed with bilateral BC at 30 and 33 years of age. The mutation was probably transmitted from the mother of the index patient who was diagnosed with BC and ovarian cancer at the ages of 52 and 60 years, respectively. A female cousin was also diagnosed with BC at the age of 30 years. Three other family member were diagnosed cancer types: one with stomach cancer at 59 years of age, one with brain cancer at 60 years of age, and another with prostate cancer at 60 years of age ( supplemental online Fig. 3 ).
+
+Discussion
+
+The present study provides first data on the contribution of BRCA1/2 mutations to early‐onset and familial breast and/or ovarian cancer in Colombians of African descent. Screening of 60 Afro‐Colombian families with breast and/or ovarian cancer for the four common BRCA1/2 founder mutations previously identified in Hispanic families from Colombia with breast and/or ovarian cancer led to the identification of the BRCA1/ c.5123C>A mutation in one family with breast and ovarian cancer, who resides in Barranquilla at the Atlantic coast.
+
+Most BRCA1/2 mutations are rare and many have been reported only in single families. However, recurrent mutations with founder effects have been identified in European, American, Asian, and some Hispanic populations [ 11 ]. In Colombia, two BRCA1 (c.3331_3334delCAAG and c.5123C>A) and two BRCA2 (c.2806_2809delAAAC and c.1763_1766delATAA) founder mutations have previously been identified in Hispanic families with breast and/or ovarian cancer [ 2 ], [ 3 ]. Their identification has aided the development of a cost‐effective genetic screening strategy in this country [ 12 ], [ 13 ], [ 14 ].
+
+The mutation spectrum of each Latin American population is expected to be strongly linked to its migration history [ 15 ]. The BRCA1 /c.5123C>A mutation is the fourth most frequent pathogenic mutation in Latin America (0.58%), after ex9‐12del (1.45%), 185delAG (0.9%), and R71G (0.64%), observed in four different countries (Colombia, Mexico, Chile, and Brazil) [ 16 ]. The fact that the BRCA1 /c.5123C>A mutation has been previously documented in Spain could be explained by the migration of people from this country to the New World that occurred during the European colonization (15th–19th centuries). This information along with our results shows that the BRCA1 /c.5123C>A mutation is detected throughout Latin America and is present in the white and Afro‐descendant populations from Colombia because of the mestizaje process.
+
+Despite the significant contribution of African ancestry to the genetic pool of the Latin American populations, few recurrent variants are traced back to the African continent [ 15 ]. Only three BRCA1 (943ins10, 1832del5, and 5296del4) and one BRCA2 (IVS13 + 1G > A) founder mutations have been identified in African Americans [ 17 ], [ 18 ], [ 19 ]. In addition, the BRCA1 /c.2641G > T and the BRCA2 /c.7934del mutations have been reported as founder mutation in South African Afrikaners [ 20 ]. By self‐identified race/ethnicity as African American, in a worldwide mutation carrier study, the ten most frequent BRCA1 mutations observed were c.815_824dup, c.5324 T > G, c.5177_5180del, c.4357 + 1G > A, c.190 T > G, c.68_69del, c.5467 + 1G > A, c.182G > A, c.5251C > T, and c.4484G > T; and the most frequent BRCA2 mutations were c.2808_2811del, c.4552del, c.9382C > T, c.1310_1313del, c.5616_5620del, c.6405_6409del, c.658_659del, c.2957_2958insG, c.7024C > T, and c.6531_6534del. The majority of BRCA1 mutations were not observed in any other racial/ethnic group, implying that these mutations may be of African origin [ 21 ].
+
+Compared to whites, young black women are more often affected by BC, which may be due to BRCA1 or BRCA2 mutations. These women also have been reported to substantially less likely undergo BRCA1/2 testing and other multipanel genetic testing compared with affected Whites [ 22 ]. The prevalence of BRCA1/2 mutations in women of African ancestry with a personal and/or family cancer history ranges from 12% to 16% [ 18 ], making the benefits of genetic counseling and testing to this group clear and compelling. Interventions and resources are needed to ensure that the benefits of the BRCA1/2 are extended to all women with increased risk of carrying mutations. If racial disparities in genetic testing persist among women who are diagnosed with BC, the benefits in precision medicine may not reach minority populations [ 22 ].
+
+In the present study we found a low prevalence (1.7%) of the four Colombian BRCA1/2 founder mutations in 60 Colombian families of African descent with breast and/or ovarian cancer. This frequency may be an underestimate because screening was restricted to the four common Colombian BRCA1/2 founder mutations and also did not comprise screening for large genomic rearrangements. Further, the degree of relationship in the definition of family history was not considered, which may be another explanation for the observed low mutation frequency.
+
+Conclusion
+
+We observed a low frequency of the Colombian BRCA1/2 founder mutations in Afro‐Colombian families with breast and/or ovarian cancer. This finding suggests that these four mutations may not present a relevant disease marker to be recommended for genetic screening programs in the Afro‐Colombian population. To obtain precise BRCA1/2 mutation frequencies in the Afro‐Colombian population, large comprehensive studies analyzing the complete coding regions of BRCA1 and BRCA2 for small‐range mutations and large genomic alterations are warranted.
+
+See http://www.TheOncologist.com for supplemental material available online.
+
+Acknowledgments
+
+We are grateful to all the women who participated in this study. This work was supported by the Alexander von Humboldt Foundation (return fellowship to D.M.T.L.) and AstraZeneca, Colombia. All procedures performed in this study involving human participants were in accordance with the ethical standards of the institutional and/or national research committee and with the 1964 Helsinki Declaration and its later amendments or comparable ethical standards.
+
+Contributed equally.
+
+Author Contributions
+
+Conception/design: Elizabeth Vargas, Diana Maria Torres Lopez, Ute Hamann
+
+Provision of study material or patients: Luis Fernando Viaña, Ricardo Bruges
+
+Collection and/or assembly of data: Elizabeth Vargas, Diana Maria Torres Lopez, Fabian Gil
+
+Data analysis and interpretation: Elizabeth Vargas, Diana Maria Torres Lopez, Robert de Deugd, Fabian Gil, Alejandra Nova, Lina Mora, Luis Fernando Viaña, José David Hernandez, Ricardo Bruges, Ute Hamann
+
+Manuscript writing: Elizabeth Vargas, Diana Maria Torres Lopez, Robert de Deugd, Fabian Gil, Alejandra Nova, Lina Mora, José David Hernandez, Ute Hamann
+
+Final approval of manuscript: Ute Hamann
+
+Disclosures
+
+José David Hernandez: AstraZeneca Colombia (RF, E). The other authors indicated no financial relationships.
+
+(C/A) Consulting/advisory relationship; (RF) Research funding; (E) Employment; (ET) Expert testimony; (H) Honoraria received; (OI) Ownership interests; (IP) Intellectual property rights/inventor/patent holder; (SAB) Scientific advisory board
+
+References

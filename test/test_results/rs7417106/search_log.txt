@@ -1,0 +1,43 @@
+Search performed: 2025-07-17 23:19:08.774351
+Terms: rs7417106, 1:976214:A:G, NM_001394713.1(PERM1):c.2330T>C(p.Val777Ala), PERM1 c.2330T>C, PERM1 p.Val777Ala, PERM1 Val777Ala, PERM1 p.V777A, PERM1 V777A
+
+Term: NM_001394713.1(PERM1):c.2330T>C(p.Val777Ala)
+  Valid: False
+  PMIDs: 0
+  Error: Phrases not found: 001394713.1, c.2330T, p.Val777Ala
+
+Term: rs7417106
+  Valid: False
+  PMIDs: 0
+  Error: Phrases not found: rs7417106
+
+Term: PERM1 c.2330T>C
+  Valid: False
+  PMIDs: 0
+  Error: Phrases not found: c.2330T
+
+Term: PERM1 p.Val777Ala
+  Valid: False
+  PMIDs: 0
+  Error: Phrases not found: p.Val777Ala
+
+Term: PERM1 Val777Ala
+  Valid: False
+  PMIDs: 0
+  Error: Phrases not found: Val777Ala
+
+Term: PERM1 p.V777A
+  Valid: False
+  PMIDs: 0
+  Error: Phrases not found: p.V777A
+
+Term: 1:976214:A:G
+  Valid: False
+  PMIDs: 0
+  Error: Phrases not found: 976214
+
+Term: PERM1 V777A
+  Valid: True
+  PMIDs: 0
+
+Total unique PMIDs: 0

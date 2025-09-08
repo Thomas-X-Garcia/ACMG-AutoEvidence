@@ -1,0 +1,13 @@
+[
+    {
+        "internal_id": "chr17_43092919_G/A",
+        "rsid": "rs121913343",
+        "spdi": "17:43092918:G:A",
+        "hgvs_full": "NM_007294.4(BRCA1):c.5123C>T(p.Ala1708Val)",
+        "hgvsc": "BRCA1 c.5123C>T",
+        "hgvsp_3p": "BRCA1 p.Ala1708Val",
+        "hgvsp_3": "BRCA1 Ala1708Val",
+        "hgvsp_1p": "BRCA1 p.A1708V",
+        "hgvsp_1": "BRCA1 A1708V"
+    }
+]

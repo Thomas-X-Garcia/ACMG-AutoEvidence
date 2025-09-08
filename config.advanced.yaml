@@ -1,0 +1,151 @@
+# Advanced Configuration for High-Accuracy Variant Analysis
+# Optimized for llama3.3:70b or similar large models
+# Requires ~40GB RAM and powerful GPU recommended
+
+# --- NCBI API Configuration ---
+api_key: "your-ncbi-api-key-here"  # Required
+
+# --- Output Configuration ---
+output_dir: "./results_advanced"
+
+# --- Variant Source ---
+variants_json_file: "./variants.json"
+
+# --- ACMG Criteria Questions ---
+# Comprehensive set with precise wording for maximum accuracy
+questions:
+  # Functional Studies (Strong Evidence)
+  PS3: "Does this manuscript provide well-established in vitro or in vivo functional studies demonstrating that the variant {comma-separated_variant_terms} has a damaging effect on protein function (e.g., >90% loss of enzyme activity, complete loss of protein function, or severe disruption of protein localization)?"
+  BS3: "Does this manuscript provide well-established in vitro or in vivo functional studies demonstrating that the variant {comma-separated_variant_terms} has NO damaging effect on protein function (e.g., >90% retained enzyme activity, normal protein function, or preserved cellular phenotype)?"
+  
+  # Case-Control Studies (Strong Evidence)
+  PS4: "Does this manuscript provide statistically significant evidence (p<0.05, OR>5.0 with 95% CI not crossing 1.0) that the variant {comma-separated_variant_terms} is significantly enriched in affected individuals compared to matched controls, with clear case and control numbers provided?"
+  
+  # Population Evidence (Strong/Moderate)
+  PM2: "Does this manuscript report that the variant {comma-separated_variant_terms} is absent from control populations or has an allele frequency <0.0001 in large population databases (gnomAD, ExAC, 1000 Genomes) after accounting for disease prevalence?"
+  BA1: "Does this manuscript report that the variant {comma-separated_variant_terms} has an allele frequency >5% (0.05) in any general population database (gnomAD, ExAC, ESP, 1000 Genomes)?"
+  BS1: "Does this manuscript demonstrate that the variant {comma-separated_variant_terms} has an allele frequency greater than expected for the disease (considering prevalence, penetrance, and inheritance pattern)?"
+  BS2: "Does this manuscript report the variant {comma-separated_variant_terms} in multiple healthy adult individuals (with confirmed lack of disease features) for a fully penetrant childhood/early-onset disorder?"
+  
+  # Protein Structure/Function (Moderate Evidence)
+  PM1: "Does this manuscript demonstrate that the variant {comma-separated_variant_terms} is located in a critical and well-established functional domain (with domain name specified) where NO benign missense variants have been documented?"
+  PM4: "Does this manuscript show that the variant {comma-separated_variant_terms} causes a protein length change through in-frame deletions/insertions in a non-repeat region OR stop-loss variants?"
+  PM5: "Does this manuscript report a different missense variant at the exact same amino acid position as {comma-separated_variant_terms} that has been previously established as pathogenic with strong evidence?"
+  BP1: "Does this manuscript indicate that the variant {comma-separated_variant_terms} is a missense variant in a gene where ONLY truncating variants (nonsense, frameshift) are known to cause disease?"
+  BP3: "Does this manuscript show that the variant {comma-separated_variant_terms} is an in-frame deletion or insertion in a repetitive region without a known functional domain?"
+  
+  # Segregation Analysis (Supporting Evidence)
+  PP1: "Does this manuscript demonstrate co-segregation of the variant {comma-separated_variant_terms} with disease in multiple affected family members (≥3 meioses) in a gene definitively known to cause the observed phenotype?"
+  BS4: "Does this manuscript show lack of segregation of the variant {comma-separated_variant_terms} with disease in affected family members (at least one affected individual lacking the variant)?"
+  
+  # De Novo Evidence
+  PM6: "Does this manuscript report the variant {comma-separated_variant_terms} as occurring de novo (absent in both parents) WITHOUT confirmation of biological maternity and paternity?"
+  PS2: "Does this manuscript report the variant {comma-separated_variant_terms} as occurring de novo WITH confirmed biological maternity and paternity (e.g., through trio analysis or paternity testing)?"
+  
+  # Computational Predictions (Supporting Evidence)
+  PP3: "Does this manuscript provide multiple lines of computational evidence (≥3 different prediction tools or methods) ALL suggesting that the variant {comma-separated_variant_terms} has a deleterious effect?"
+  BP4: "Does this manuscript provide multiple lines of computational evidence (≥3 different prediction tools) ALL suggesting that the variant {comma-separated_variant_terms} is benign or has no functional impact?"
+  BP7: "Does this manuscript demonstrate that the variant {comma-separated_variant_terms} is a silent/synonymous variant with NO predicted effect on splicing (confirmed by splicing prediction tools)?"
+  
+  # Phenotype and Other Evidence
+  PP4: "Does this manuscript describe patients with the variant {comma-separated_variant_terms} who have a phenotype that is highly specific and consistent with a single genetic etiology (with specific clinical features listed)?"
+  PP2: "Does this manuscript provide evidence that the variant {comma-separated_variant_terms} is in a gene where missense variants are a common mechanism of disease (with specific examples of other pathogenic missense variants)?"
+  BP2: "Does this manuscript report the variant {comma-separated_variant_terms} observed in trans with a pathogenic variant for a fully penetrant dominant disorder OR observed in cis with a pathogenic variant in any inheritance pattern?"
+
+# --- Optimized LLM Configuration for llama3.3:70b ---
+ollama_model: "llama3.3:70b"
+
+langchain_settings:
+  temperature: 0.01         # Near-zero for maximum consistency
+  top_p: 0.85              # Tighter nucleus sampling
+  top_k: 40                # Limit token choices
+  repeat_penalty: 1.15     # Stronger penalty for repetition
+  max_manuscript_length: 250000  # Max characters per article (default: 250k ~62.5k tokens)
+  stop_tokens:
+    - "\n\n"
+    - "Question:"
+    - "Manuscript:"
+    - "Answer:"
+    - "\nNote:"
+    - "\nRemember:"
+  num_retries: 7           # More retries for complex analyses
+  max_tokens: 350          # Slightly more room for detailed evidence
+  seed: 42                 # Fixed seed for reproducibility
+
+# --- Performance Optimization ---
+max_workers: 2  # Reduce parallelism to avoid memory issues with large model
+efetch_chunk_size_pmc: 25      # Smaller chunks for detailed analysis
+efetch_chunk_size_pubmed: 50   # Balanced chunk size
+api_request_delay: 0.2         # Slightly higher delay for stability
+
+# Retry settings with longer backoff for large model
+retry_settings:
+  retries: 5
+  backoff_factor: 1.0  # Longer waits between retries
+
+# --- Processing Options ---
+run_inference: true
+verify_pmids: true        # Enable for maximum accuracy
+ollama_overwrite: false
+
+# --- Enhanced Prompt Template ---
+# This template provides maximum guidance for accurate ACMG classification
+prompt_base_template: |
+  You are a board-certified clinical geneticist with expertise in ACMG variant classification. Your task is to evaluate scientific manuscripts for evidence meeting specific ACMG criteria with the highest accuracy.
+  
+  CRITICAL ANALYSIS FRAMEWORK:
+  
+  1. EVIDENCE HIERARCHY:
+     - Primary experimental data > Meta-analysis > Case series > Case report > In silico only
+     - Direct evidence about THIS variant > Evidence about similar variants > Theoretical discussion
+     - Quantitative results with statistics > Qualitative observations > Anecdotal reports
+  
+  2. ACMG CRITERIA REQUIREMENTS:
+  
+  STRONG EVIDENCE (PS/BS):
+  - PS3: Requires functional assays with >90% loss of function OR severe cellular phenotype with proper controls
+  - PS4: Requires OR >5.0 with p<0.05 and 95% CI excluding 1.0, with ≥20 cases and appropriate controls
+  - PS2: Requires confirmed de novo with paternity/maternity testing in disease-consistent phenotype
+  - BS3: Requires functional assays showing >90% normal function with validated methods
+  - BA1: Requires MAF >5% in appropriate population database
+  
+  MODERATE EVIDENCE (PM):
+  - PM1: Must name specific functional domain + evidence of constraint (no benign variants)
+  - PM2: Requires documented absence or frequency <0.0001 in large databases
+  - PM5: Requires different amino acid change at SAME position with established pathogenicity
+  - PM6: De novo without paternity confirmation but from reputable clinical source
+  
+  SUPPORTING EVIDENCE (PP/BP):
+  - PP3/BP4: Requires ≥3 computational predictions in agreement
+  - PP1: Requires ≥3 meioses with clear segregation
+  - PP4: Requires detailed phenotype matching known gene-disease association
+  
+  3. EXCLUSION CRITERIA:
+  - Computational predictions alone CANNOT satisfy PS3/BS3
+  - Family history alone CANNOT satisfy PS4
+  - Database presence alone CANNOT satisfy clinical criteria
+  - Review articles citing other studies do NOT count as primary evidence
+  
+  MANUSCRIPT TO ANALYZE:
+  """
+  {FILENAME}
+  """
+  
+  SPECIFIC QUESTION:
+  {question_from_question_list}
+  
+  STEP-BY-STEP ANALYSIS:
+  1. What specific type of evidence does this ACMG criterion require?
+  2. Does this manuscript contain PRIMARY data (not just citations) relevant to this criterion?
+  3. Is the evidence specifically about the variant in question (not just similar variants)?
+  4. Does the evidence meet the quantitative/qualitative threshold for this criterion level?
+  5. Are there any contradictory findings that would change the classification?
+  
+  REQUIRED OUTPUT FORMAT:
+  First line: [Yes], [No], or [Unclear] (use Unclear ONLY when evidence is present but insufficient)
+  Second line: Cite specific evidence with details (e.g., "Table 2 shows OR=7.3, p=0.0001, 95% CI 3.2-15.1")
+  
+  If [No], explain what evidence is missing or why present evidence is insufficient.
+  If [Unclear], explain what additional data would be needed for a definitive answer.
+  
+  Answer:

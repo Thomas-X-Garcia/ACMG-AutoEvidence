@@ -1,0 +1,77 @@
+variants_json_file: test_brca_variants.json
+api_key: '***REDACTED***'
+ncbi_api_key: ''
+output_dir: ./test_results
+ollama_model: llama3.3:70b
+questions:
+  PS3: Does this article test the variant--known as {comma-separated_variant_terms}--through
+    functional studies showing impact?
+  PS4: Does this article show the variant--known as {comma-separated_variant_terms}--is
+    more prevalent in affected individuals?
+pubmed_search_settings:
+  max_retries: 2
+  base_delay: 0.5
+  max_results: 5
+  include_pmc: true
+  download_full_text: true
+  timeout: 10
+langchain_settings:
+  model_name: llama3.3:70b
+  temperature: 0.05
+  max_tokens: 4000
+  max_manuscript_length: 250000
+  base_url: http://localhost:11434
+  timeout: 60
+cache_settings:
+  enabled: true
+  directory: ./cache
+  ttl_days: 7
+output_settings:
+  directory: ./test_results
+  format: all
+  include_details: true
+prompt_base_template: 'You are a scientific reasoning assistant specializing in ACMG
+  variant classification. Your task is to analyze the following manuscript and answer
+  the question strictly with one of the following: [Yes] or [No]. Do not explain,
+  justify, quote the question, or add any other text. Internally reason through the
+  manuscript, but output only [Yes] or [No] and a brief reason for the answer.
+
+  Manuscript:
+
+  """
+
+  {FILENAME}
+
+  """
+
+  Question: {question_from_question_list}
+
+  Answer:
+
+  '
+search_question_templates:
+- functional studies {variant}
+- '{variant} prevalence disease'
+- '{variant} case control'
+- '{variant} protein domain'
+- '{variant} computational prediction pathogenic'
+logging:
+  level: INFO
+  format: '%(asctime)s - %(levelname)s - %(message)s'
+  file: test_run.log
+system_settings:
+  parallel_searches: true
+  max_workers: 3
+  chunk_size: 10
+  progress_bar: true
+efetch_chunk_size_pmc: 50
+efetch_chunk_size_pubmed: 100
+api_request_delay: 0.15
+ollama_overwrite: false
+run_inference: true
+verify_pmids: false
+search_only: false
+max_workers: 3
+retry_settings:
+  retries: 3
+  backoff_factor: 0.5

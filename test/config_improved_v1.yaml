@@ -1,0 +1,100 @@
+# Improved Configuration with Chain-of-Thought Prompt Template
+# Version 1: Clear reasoning steps without examples
+
+# --- NCBI API Configuration ---
+api_key: "85d0ce407d2e5428e18a1d021579bc25d408"
+ncbi_api_key: ""
+output_dir: "./results_improved_v1"
+
+# --- Variant Source ---
+variants_json_file: "./variants.json"
+
+# --- Ollama Model Configuration ---
+ollama_model: "llama3.3:70b"
+ollama_overwrite: false
+run_inference: true
+
+# --- ACMG Criteria Questions ---
+questions:
+  # Functional Studies
+  PS3: "Does this article test the variant--known as {comma-separated_variant_terms}--through in vitro and/or in vivo studies, and if so, did the study show a functional impact of the variant on the gene product?"
+  BS3: "Does this article provide well-established functional studies showing the variant--known as {comma-separated_variant_terms}--has no damaging effect on protein function?"
+  
+  # Population Data
+  PS4: "Does this article demonstrate that the prevalence of the variant--known as {comma-separated_variant_terms}--is significantly increased in affected individuals compared to controls?"
+  PM2: "Does this article indicate that the variant--known as {comma-separated_variant_terms}--is absent from controls or extremely rare in population databases?"
+  BA1: "Does this article report that the variant--known as {comma-separated_variant_terms}--has an allele frequency >5% in population databases?"
+  
+  # Protein Structure/Function
+  PM1: "Does this article demonstrate that the variant--known as {comma-separated_variant_terms}--is located in a critical and well-established functional domain?"
+  PM5: "Does this article report a different missense variant at the exact same amino acid position as {comma-separated_variant_terms} that has been established as pathogenic?"
+  
+  # Segregation Analysis
+  PP1: "Does this article demonstrate co-segregation of the variant--known as {comma-separated_variant_terms}--with disease in multiple affected family members?"
+  BS4: "Does this article show lack of segregation of the variant--known as {comma-separated_variant_terms}--with disease in affected family members?"
+  
+  # Computational Predictions
+  PP3: "Does this article provide multiple lines of computational evidence suggesting that the variant--known as {comma-separated_variant_terms}--has a deleterious effect?"
+  BP4: "Does this article provide multiple lines of computational evidence suggesting that the variant--known as {comma-separated_variant_terms}--is benign?"
+
+# --- Improved Chain-of-Thought Prompt Template ---
+prompt_base_template: |
+  You are an expert clinical geneticist and a scientific literature analysis AI. Your task is to analyze a scientific manuscript to determine if it contains evidence supporting a specific ACMG criterion for a genetic variant.
+  
+  Follow these steps precisely:
+  1. **Analyze the Question:** Carefully read the user's question to understand the exact type of evidence required (e.g., functional studies for PS3, population data for PS4).
+  2. **Scan the Manuscript:** Read the provided manuscript, looking for keywords, methods, results, and discussion points relevant to the question.
+  3. **Extract Evidence:** Identify and extract direct quotes from the manuscript that support your final answer. If no direct evidence is found, state this explicitly.
+  4. **Reason and Decide:** Based ONLY on the extracted evidence, formulate a step-by-step reasoning process that leads to your conclusion.
+  5. **Provide the Final Answer:** Conclude with a "Yes", "No", or "Unclear" determination.
+  
+  Your final output MUST be a JSON object. Do not output any text outside of the JSON structure.
+  
+  Manuscript:
+  """
+  {FILENAME}
+  """
+  
+  Question: {question_from_question_list}
+  
+  {format_instructions}
+
+# --- LangChain Settings ---
+langchain_settings:
+  temperature: 0.01          # Near-zero for maximum consistency
+  top_p: 0.85               # Tighter nucleus sampling
+  top_k: 40                 # Limit token choices
+  repeat_penalty: 1.15      # Stronger penalty to prevent repetition
+  max_manuscript_length: 250000  # Max characters per article
+  stop_tokens:
+    - "\n\n"
+    - "```"
+    - "}"
+    - "<|im_end|>"
+    - "<|eot_id|>"
+  num_retries: 5
+  max_tokens: 800           # Increased to accommodate evidence quotes
+
+# --- Performance Configuration ---
+max_workers: 2              # Reduced for 70B model memory usage
+efetch_chunk_size_pmc: 25
+efetch_chunk_size_pubmed: 50
+api_request_delay: 0.2
+
+# --- Cache Settings ---
+cache_settings:
+  enabled: true
+  directory: "./cache"
+  ttl_days: 30
+
+# --- Output Settings ---
+output_settings:
+  include_evidence_quotes: true
+  format: "all"
+  include_timestamps: true
+
+# --- Logging ---
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(levelname)s - %(message)s"
+  file: "analysis_improved_v1.log"

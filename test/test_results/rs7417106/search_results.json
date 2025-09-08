@@ -1,0 +1,56 @@
+{
+  "timestamp": "2025-07-17T23:19:10.248217",
+  "terms": [
+    "rs7417106",
+    "1:976214:A:G",
+    "NM_001394713.1(PERM1):c.2330T>C(p.Val777Ala)",
+    "PERM1 c.2330T>C",
+    "PERM1 p.Val777Ala",
+    "PERM1 Val777Ala",
+    "PERM1 p.V777A",
+    "PERM1 V777A"
+  ],
+  "total_pmids": 0,
+  "results": {
+    "NM_001394713.1(PERM1):c.2330T>C(p.Val777Ala)": {
+      "valid": false,
+      "pmid_count": 0,
+      "error": "Phrases not found: 001394713.1, c.2330T, p.Val777Ala"
+    },
+    "rs7417106": {
+      "valid": false,
+      "pmid_count": 0,
+      "error": "Phrases not found: rs7417106"
+    },
+    "PERM1 c.2330T>C": {
+      "valid": false,
+      "pmid_count": 0,
+      "error": "Phrases not found: c.2330T"
+    },
+    "PERM1 p.Val777Ala": {
+      "valid": false,
+      "pmid_count": 0,
+      "error": "Phrases not found: p.Val777Ala"
+    },
+    "PERM1 Val777Ala": {
+      "valid": false,
+      "pmid_count": 0,
+      "error": "Phrases not found: Val777Ala"
+    },
+    "PERM1 p.V777A": {
+      "valid": false,
+      "pmid_count": 0,
+      "error": "Phrases not found: p.V777A"
+    },
+    "1:976214:A:G": {
+      "valid": false,
+      "pmid_count": 0,
+      "error": "Phrases not found: 976214"
+    },
+    "PERM1 V777A": {
+      "valid": true,
+      "pmid_count": 0,
+      "error": null
+    }
+  }
+}

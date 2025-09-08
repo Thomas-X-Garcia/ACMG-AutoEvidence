@@ -1,0 +1,114 @@
+variants_json_file: test_brca_variants.json
+api_key: '***REDACTED***'
+ncbi_api_key: ''
+output_dir: ./test_results
+questions:
+  PS3: Does this article test the variant--known as {comma-separated_variant_terms}--through
+    functional studies showing impact?
+  PS4: Does this article show the variant--known as {comma-separated_variant_terms}--is
+    more prevalent in affected individuals?
+pubmed_search_settings:
+  max_retries: 2
+  base_delay: 0.5
+  max_results: 5
+  include_pmc: true
+  download_full_text: true
+  timeout: 10
+langchain_settings:
+  model_name: qwen2.5:32b
+  temperature: 0.05
+  max_tokens: 4000
+  base_url: http://localhost:11434
+  timeout: 60
+cache_settings:
+  enabled: true
+  directory: ./cache
+  ttl_days: 7
+output_settings:
+  directory: ./test_results
+  format: all
+  include_details: true
+prompt_base_template: 'You are a medical genetics expert specializing in variant classification
+  according to ACMG/AMP guidelines.
+
+
+  Analyze the following article abstracts and full text (when available) to determine
+  if they provide evidence for classifying the variant {variant} according to ACMG
+  criteria.
+
+
+  ACMG Criteria to evaluate (focus on functional and clinical evidence):
+
+
+  PS3 (Functional Studies): Well-established in vitro or in vivo functional studies
+  supportive of a damaging effect on the gene or gene product
+
+  - Look for: enzymatic assays, protein function tests, cellular localization studies,
+  splicing assays
+
+  - Evidence must show clear functional impact
+
+
+  PS4 (Prevalence in affected individuals): The prevalence of the variant in affected
+  individuals is significantly increased compared to controls
+
+  - Look for: case-control studies, cohort studies showing enrichment in affected
+  populations
+
+  - Must have appropriate statistical analysis
+
+
+  PM1 (Critical functional domain): Located in a mutational hot spot and/or critical
+  and well-established functional domain
+
+  - Look for: descriptions of protein domains, structural studies, conservation analysis
+
+
+  PP3 (Computational predictions): Multiple lines of computational evidence support
+  a deleterious effect
+
+  - Look for: mentions of prediction tools (SIFT, PolyPhen, CADD, etc.) and their
+  results
+
+
+  For each criterion, provide:
+
+  1. Whether evidence supports this criterion (Yes/No/Insufficient)
+
+  2. Brief explanation of the supporting evidence
+
+  3. Confidence level (High/Medium/Low)
+
+
+  Articles to analyze:
+
+  {articles}
+
+  '
+search_question_templates:
+- functional studies {variant}
+- '{variant} prevalence disease'
+- '{variant} case control'
+- '{variant} protein domain'
+- '{variant} computational prediction pathogenic'
+logging:
+  level: INFO
+  format: '%(asctime)s - %(levelname)s - %(message)s'
+  file: test_run.log
+system_settings:
+  parallel_searches: true
+  max_workers: 3
+  chunk_size: 10
+  progress_bar: true
+efetch_chunk_size_pmc: 50
+efetch_chunk_size_pubmed: 100
+api_request_delay: 0.15
+ollama_model: llama3.2:latest
+ollama_overwrite: false
+run_inference: true
+verify_pmids: false
+search_only: false
+max_workers: 3
+retry_settings:
+  retries: 3
+  backoff_factor: 0.5

@@ -1,0 +1,76 @@
+[
+  {
+    "rsid": "rs121913343",
+    "internal_id": "chr17_43092919_G/A",
+    "hgvs_full": "NM_007294.4(BRCA1):c.5123C>T(p.Ala1708Val)",
+    "hgvsc": "BRCA1 c.5123C>T",
+    "hgvsp_3p": "BRCA1 p.Ala1708Val",
+    "hgvsp_3": "BRCA1 Ala1708Val",
+    "hgvsp_1p": "BRCA1 p.A1708V",
+    "hgvsp_1": "BRCA1 A1708V",
+    "spdi": "17:43092918:G:A",
+    "gene": "BRCA1",
+    "comment": "Known pathogenic variant in BRCA1"
+  },
+  {
+    "rsid": "rs28897696",
+    "internal_id": "chr13_32332592_A/C",
+    "hgvs_full": "NM_000059.3(BRCA2):c.2336G>A(p.Trp779Ter)",
+    "hgvsc": "BRCA2 c.2336G>A",
+    "hgvsp_3p": "BRCA2 p.Trp779Ter",
+    "hgvsp_3": "BRCA2 Trp779Ter",
+    "hgvsp_1p": "BRCA2 p.W779*",
+    "hgvsp_1": "BRCA2 W779*",
+    "spdi": "13:32332591:A:C",
+    "gene": "BRCA2"
+  },
+  {
+    "rsid": "rs267606617",
+    "internal_id": "chr3_37067240_C/T",
+    "hgvs_full": "NM_000249.4(MLH1):c.199G>A(p.Gly67Arg)",
+    "hgvsc": "MLH1 c.199G>A",
+    "hgvsp_3p": "MLH1 p.Gly67Arg",
+    "hgvsp_3": "MLH1 Gly67Arg",
+    "hgvsp_1p": "MLH1 p.G67R",
+    "hgvsp_1": "MLH1 G67R",
+    "spdi": "3:37067239:C:T",
+    "gene": "MLH1"
+  },
+  {
+    "rsid": "rs63750447",
+    "internal_id": "chr2_47403283_AC/A",
+    "hgvs_full": "NM_000251.3(MSH2):c.1906G>C(p.Gly636Arg)",
+    "hgvsc": "MSH2 c.1906G>C",
+    "hgvsp_3p": "MSH2 p.Gly636Arg",
+    "hgvsp_3": "MSH2 Gly636Arg",
+    "hgvsp_1p": "MSH2 p.G636R",
+    "hgvsp_1": "MSH2 G636R",
+    "spdi": "2:47403282:AC:A",
+    "gene": "MSH2"
+  },
+  {
+    "rsid": "rs730881616",
+    "internal_id": "chr7_5987269_G/A",
+    "hgvs_full": "NM_000535.7(PMS2):c.736C>T(p.Pro246Ser)",
+    "hgvsc": "PMS2 c.736C>T",
+    "hgvsp_3p": "PMS2 p.Pro246Ser",
+    "hgvsp_3": "PMS2 Pro246Ser",
+    "hgvsp_1p": "PMS2 p.P246S",
+    "hgvsp_1": "PMS2 P246S",
+    "spdi": "7:5987268:G:A",
+    "gene": "PMS2",
+    "comment": "Lynch syndrome associated gene"
+  },
+  {
+    "internal_id": "chr9_135779009_C/T",
+    "hgvs_full": "NM_000368.5(TSC1):c.1907C>T(p.Ser636Phe)",
+    "hgvsc": "TSC1 c.1907C>T",
+    "hgvsp_3p": "TSC1 p.Ser636Phe",
+    "hgvsp_3": "TSC1 Ser636Phe",
+    "hgvsp_1p": "TSC1 p.S636F",
+    "hgvsp_1": "TSC1 S636F",
+    "spdi": "9:135779008:C:T",
+    "gene": "TSC1",
+    "comment": "Variant without rsID"
+  }
+]

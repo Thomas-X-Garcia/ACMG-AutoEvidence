@@ -1,0 +1,215 @@
+# Example Configuration File for Variant Literature Analysis Tool
+# Copy this file to config.yaml and modify as needed
+
+# --- NCBI API Configuration ---
+# Get an API key from NCBI for higher request rates:
+# https://www.ncbi.nlm.nih.gov/account/settings/
+api_key: "your-ncbi-api-key-here"  # Required: Replace with your actual key
+# Can also use environment variable: export NCBI_API_KEY="your-key"
+
+# --- Output Configuration ---
+output_dir: "./results"  # Directory where all results will be stored
+
+# --- Variant Source Configuration ---
+# Option 1: Process multiple variants from a JSON file (recommended)
+variants_json_file: "./variants.json"
+
+# Option 2: Process a single variant with search terms
+# Uncomment the lines below and comment out variants_json_file above
+# search_terms:
+#   - "rs1234567"
+#   - "BRCA1 c.5074G>A"
+#   - "BRCA1 p.Val1736Ala"
+#   - "BRCA1 p.V1736A"
+
+# --- ACMG Criteria Questions ---
+# Define questions for variant analysis
+# Use {comma-separated_variant_terms} as placeholder for variant identifiers
+questions:
+  # Functional Studies
+  PS3: "Does this article test the variant--known as {comma-separated_variant_terms}--through in vitro and/or in vivo studies, and if so, did the study show a functional impact of the variant on the gene product?"
+  BS3: "Does this article provide well-established functional studies showing the variant--known as {comma-separated_variant_terms}--has no damaging effect on protein function?"
+  
+  # Population Data
+  PS4: "Does this article demonstrate that the prevalence of the variant--known as {comma-separated_variant_terms}--is significantly increased in affected individuals compared to controls?"
+  PM2: "Does this article indicate that the variant--known as {comma-separated_variant_terms}--is absent from controls or extremely rare in population databases?"
+  BA1: "Does this article report that the variant--known as {comma-separated_variant_terms}--has an allele frequency >5% in population databases?"
+  BS1: "Does this article indicate that the variant--known as {comma-separated_variant_terms}--has an allele frequency greater than expected for the disorder?"
+  BS2: "Does this article report the variant--known as {comma-separated_variant_terms}--in healthy adult individuals?"
+  
+  # Protein Structure/Function
+  PM1: "Does this article indicate that the variant--known as {comma-separated_variant_terms}--is located in a critical and well-established functional domain without benign variation?"
+  PM4: "Does this article describe protein length changes due to the variant--known as {comma-separated_variant_terms}--through in-frame deletions/insertions or stop-loss variants?"
+  PM5: "Does this article report a different missense change at the same amino acid position as the variant--known as {comma-separated_variant_terms}--that has been previously established as pathogenic?"
+  BP1: "Does this article indicate that the variant--known as {comma-separated_variant_terms}--is a missense variant in a gene where only truncating variants cause disease?"
+  BP3: "Does this article describe the variant--known as {comma-separated_variant_terms}--as an in-frame deletion/insertion in a repetitive region without known function?"
+  
+  # Segregation and De Novo
+  PP1: "Does this article demonstrate that the variant--known as {comma-separated_variant_terms}--co-segregates with disease in multiple affected family members?"
+  BS4: "Does this article show lack of segregation of the variant--known as {comma-separated_variant_terms}--with disease in affected family members?"
+  PM6: "Is the variant--known as {comma-separated_variant_terms}--reported as de novo (without confirmation of paternity and maternity)?"
+  PS2: "Is the variant--known as {comma-separated_variant_terms}--reported as de novo with confirmed paternity and maternity?"
+  
+  # Computational and Predictive
+  PP3: "Do computational predictions in this article suggest the variant--known as {comma-separated_variant_terms}--has a deleterious effect?"
+  BP4: "Do computational predictions in this article suggest the variant--known as {comma-separated_variant_terms}--has no impact on gene or gene product?"
+  BP7: "Does this article indicate that the variant--known as {comma-separated_variant_terms}--is a synonymous variant with no predicted impact on splicing?"
+  
+  # Phenotype Specificity
+  PP4: "Does this article describe a phenotype in patients with variant--known as {comma-separated_variant_terms}--that is highly specific for the gene's associated disease?"
+  
+  # Other Evidence
+  PP2: "Does this article indicate that missense variants are a common mechanism of disease for the gene containing variant--known as {comma-separated_variant_terms}?"
+  BP2: "Is the variant--known as {comma-separated_variant_terms}--observed in trans with a pathogenic variant (for dominant disorders) or in cis with a pathogenic variant (in any inheritance pattern)?"
+
+# --- LLM Configuration ---
+# Model to use for analysis (must be available in Ollama)
+# Recommended models by use case:
+# - Best accuracy: llama3.3:70b or llama3.1:70b (requires ~40GB RAM)
+# - Best balance: qwen2.5:32b (requires ~20GB RAM)
+# - Limited resources: mistral:7b-instruct-q4_0 (requires ~4GB RAM)
+# - Medical-specific: biomistral:7b (after creating from HuggingFace)
+ollama_model: "qwen2.5:32b"  # Recommended: best balance of accuracy and speed
+
+# LangChain settings for fine-tuning LLM behavior
+langchain_settings:
+  temperature: 0.05         # Very low for maximum consistency (0-2, use 0.05-0.1 for medical)
+  top_p: 0.9               # Reduce randomness in token selection
+  repeat_penalty: 1.1      # Prevent repetitive responses
+  max_manuscript_length: 250000  # Max characters per article (default: 250k ~62.5k tokens)
+  stop_tokens:             # Tokens that stop generation
+    - "\n\n"
+    - "Question:"
+    - "Manuscript:"
+    - "<|im_end|>"         # For Qwen models
+    - "<|eot_id|>"         # For Llama models
+  num_retries: 5           # Increase retries for complex analyses
+  max_tokens: 300          # Limit response length to avoid rambling
+
+# --- Performance Configuration ---
+# Number of parallel workers for searches and retrieval
+max_workers: 3  # Increase if you have good internet and CPU (max recommended: 8)
+
+# Number of articles to fetch per API request
+efetch_chunk_size_pmc: 50      # PMC articles per request (max: 100)
+efetch_chunk_size_pubmed: 100  # PubMed abstracts per request (max: 200)
+
+# Delay between consecutive NCBI API requests (seconds)
+api_request_delay: 0.15  # With API key: min 0.1, without: min 0.334
+
+# Retry settings for failed HTTP requests
+retry_settings:
+  retries: 3              # Number of retry attempts
+  backoff_factor: 0.5     # Exponential backoff multiplier
+
+# --- Processing Options ---
+run_inference: true       # Set to false to skip LLM analysis
+verify_pmids: false       # Additional verification of search results (slower)
+search_only: false        # Only perform searches without retrieval/analysis
+ollama_overwrite: false   # Set to true to re-run analyses even if results exist
+
+# --- Advanced Options ---
+# Enhanced prompt template for improved ACMG criteria classification accuracy
+# Uncomment and use this template for better results with llama3.3:70b or similar models
+prompt_base_template: |
+  You are a clinical genetics expert evaluating scientific evidence for ACMG variant pathogenicity criteria.
+  
+  TASK: Analyze the manuscript to determine if it provides evidence meeting the specific ACMG criterion asked about.
+  
+  ACMG CRITERIA DEFINITIONS:
+  
+  PS3 (Functional Studies - Pathogenic Strong):
+  - REQUIRES: Well-established in vitro or in vivo functional studies showing damaging effect
+  - EXAMPLES: Enzyme assays showing <10% activity, cell-based assays showing loss of function, animal models with phenotype
+  - NOT SUFFICIENT: Computational predictions, protein modeling alone, expression changes without functional validation
+  
+  PS4 (Case-Control - Pathogenic Strong):
+  - REQUIRES: Statistically significant increase in affected vs controls (OR >5.0, CI doesn't include 1.0)
+  - MUST HAVE: Clear case numbers, control numbers, and statistical analysis
+  - NOT SUFFICIENT: Case reports, family studies alone, presence in databases without statistics
+  
+  PM1 (Critical Domain - Pathogenic Moderate):
+  - REQUIRES: Variant located in critical functional domain AND absence of benign variants in that domain
+  - MUST STATE: Specific domain name, functional importance, and lack of benign variation
+  
+  PM2 (Population Data - Pathogenic Moderate):
+  - REQUIRES: Absent from controls or extremely rare in population databases
+  - MUST CHECK: gnomAD, ExAC, or similar population databases with actual frequencies
+  
+  PP3 (Computational - Pathogenic Supporting):
+  - REQUIRES: Multiple computational tools agreeing on deleterious effect
+  - ACCEPTABLE: SIFT, PolyPhen-2, CADD scores, conservation data
+  
+  BS3 (Functional Studies - Benign Strong):
+  - REQUIRES: Well-established functional studies showing NO damaging effect
+  - EXAMPLES: Normal enzyme activity (>90%), preserved protein function, normal cellular phenotype
+  
+  BA1/BS1/BS2 (Population - Benign):
+  - BA1: Allele frequency >5% in population databases
+  - BS1: Allele frequency greater than expected for disorder
+  - BS2: Observed in healthy adults incompatible with penetrance
+  
+  ANALYSIS INSTRUCTIONS:
+  1. Identify the SPECIFIC CRITERION being asked about
+  2. Find EXPERIMENTAL DATA, not just discussion or citations
+  3. Evaluate if evidence DIRECTLY addresses the criterion requirements
+  4. Consider evidence QUALITY (peer-reviewed methods, controls, replication)
+  5. Note any CONTRADICTORY findings
+  
+  Manuscript:
+  """
+  {FILENAME}
+  """
+  
+  Question: {question_from_question_list}
+  
+  REASONING PROCESS:
+  - What type of evidence does this criterion require?
+  - Does this manuscript contain that specific type of evidence?
+  - Is the evidence about THIS variant specifically (not similar variants)?
+  - Is the evidence strong enough to meet the criterion threshold?
+  
+  RESPONSE FORMAT:
+  Line 1: [Yes], [No], or [Unclear]
+  Line 2: Specific evidence found (or explanation of why evidence is insufficient)
+  
+  Example good responses:
+  "[Yes]
+  Functional assay in Figure 3 shows variant reduces enzyme activity to 5% of wild-type (p<0.001), meeting PS3 criterion."
+  
+  "[No]
+  Study only reports computational predictions without experimental validation, insufficient for PS3 functional evidence."
+  
+  "[Unclear]
+  Functional data shows 45% activity reduction, but significance not reported and threshold for pathogenicity undefined."
+  
+  Answer:
+
+# --- Usage Examples ---
+# 1. Basic usage:
+#    python acmg-autoevidence.py config.yaml
+#
+# 2. Process specific variant:
+#    python acmg-autoevidence.py config.yaml --variant rs1234567
+#
+# 3. Parallel processing with more workers:
+#    python acmg-autoevidence.py config.yaml --parallel 8
+#
+# 4. Debug mode with logging:
+#    python acmg-autoevidence.py config.yaml --debug --log-file analysis.log
+#
+# 5. Generate summary report:
+#    python acmg-autoevidence.py config.yaml --summary --format excel
+#
+# 6. Using specific models for different purposes:
+#    # For highest accuracy (requires ~40GB RAM):
+#    ollama pull llama3.3:70b
+#    # Then set ollama_model: "llama3.3:70b" in this config
+#
+#    # For medical-specific analysis:
+#    ollama pull biomistral:7b  # After creating from HuggingFace GGUF
+#    # Then set ollama_model: "biomistral:7b" in this config
+#
+# 7. Testing different models:
+#    python acmg-autoevidence.py config.yaml --variant rs1234567 --limit 1
+#    # Change ollama_model in config and re-run to compare results

@@ -1,0 +1,29 @@
+# Core dependencies for Variant Literature Analysis Tool
+# Python 3.8+ required
+
+# LangChain and LLM integration
+langchain==0.1.16
+langchain-ollama==0.0.2
+pydantic==2.6.4
+
+# HTTP and networking
+requests==2.31.0
+urllib3==2.1.0
+
+# Data processing
+pyyaml==6.0.1
+pandas==2.2.1
+openpyxl==3.1.2  # For Excel output
+xlsxwriter==3.2.0  # Alternative Excel writer
+
+# Web scraping and parsing
+beautifulsoup4==4.12.3
+lxml==5.1.0
+defusedxml==0.7.1  # Security: Safe XML parsing
+
+# Configuration and validation
+jsonschema==4.21.1
+
+# Type checking and validation
+types-requests==2.31.0.20240311
+types-PyYAML==6.0.12.12
